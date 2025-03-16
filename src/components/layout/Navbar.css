@@ -1,0 +1,134 @@
+:root {
+    --secondary-color: rgb(15, 121, 227);
+    --nav-text: rgb(255, 255, 255)
+;}
+
+/* Main container of the navbar */
+.navbar-container {
+    display: flex;
+    align-items: center; /* align everything inside the navbar vertically */
+    height: 4rem;
+    background-color: rgb(3, 63, 123);
+}
+
+/* the container of the logo at the left*/
+/* keep both of the classNames as removing the navbar-container will mess up the size of the image*/
+.navbar-container .navbar-home-icon {
+    margin-left: 2rem;
+}
+
+.navbar-home-icon img {
+    border-radius: 3rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.navbar-buttons {
+  display: flex;
+  width: 100%;
+  height: 100%; /* for hover */
+  justify-content: flex-end; /* make it start at the end */
+
+  font-size: 1.2rem;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.navbar-buttons ul {
+    display: flex;
+    gap: 0rem;  /* Adds consistent spacing between nav items */
+    margin: 0;
+    padding-right: 1rem;
+} 
+  
+  .navbar-buttons a {
+    color: var(--nav-text);
+    font-weight: bold;
+    transition: background-color 0.1s ease; /* Smooth transition for hover effect */
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    display: flex;
+    align-items: center;
+    height: 100%; /* so hover highlights from top to bottom */
+  }
+  
+  .navbar-buttons a:hover {
+    background-color: var(--secondary-color);
+    border-radius: 5px; /* rounded corners*/
+  }
+
+  /*
+  nav li:first-child{margin-right: auto} for the image at the left
+  */
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(19, 41, 139, 0.434);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    display: none;
+}
+
+.sidebar ul {
+    width: 100%;
+    padding: 0%;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.sidebar .navbar-buttons {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+.sidebar .navbar-buttons ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .sidebar .navbar-buttons li {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sidebar .navbar-buttons a {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .hamburger {
+    display: none;
+  }
+  
+  @media(max-width: 900px) {
+    .hideOnMobile{
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+    @media(max-width: 400px) {
+        .sidebar{
+            width: 100%;
+        }
+    }
