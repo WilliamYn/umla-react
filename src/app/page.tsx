@@ -15,7 +15,7 @@ export default function Home() {
           </div>
           <div className='hero-section-left-buttons'>
             <button className='button-donate'>Faire un don</button>
-            <button className='button-volunteer'>S'impliquer</button>
+            <button className='button-volunteer'>S&apos;impliquer</button>
           </div>
         </div>
         <div className='hero-section-right'>
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <div className='hero-section-mobile-buttons'>
           <button className='button-donate'>Faire un don</button>
-          <button className='button-volunteer'>S'impliquer</button>
+          <button className='button-volunteer'>S&apos;impliquer</button>
         </div>
       </div>
 

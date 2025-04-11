@@ -2,18 +2,18 @@
 
 import Link from 'next/link';
 import './Navbar.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export default function Navbar() {
-    const [sidebarVisible, setSidebarVisible] = useState(false);
+    const [sidebarVisible] = useState(false);
     /*
     const showSidebar = () => {
         setSidebarVisible(true);
       };*/
     
-      const hideSidebar = () => {
+      /*const hideSidebar = () => {
         setSidebarVisible(false);
-      };
+      };*/
 
         // Optional: Close sidebar when clicking outside or pressing escape
         /*
