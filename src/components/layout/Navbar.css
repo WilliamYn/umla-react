@@ -1,134 +1,79 @@
 :root {
-    --secondary-color: rgb(15, 121, 227);
-    --nav-text: rgb(255, 255, 255)
-;}
-
-/* Main container of the navbar */
-.navbar-container {
-    display: flex;
-    align-items: center; /* align everything inside the navbar vertically */
-    height: 4rem;
-    background-color: rgb(3, 63, 123);
+    --nav-text-size: 1.2rem;
 }
 
-/* the container of the logo at the left*/
-/* keep both of the classNames as removing the navbar-container will mess up the size of the image*/
-.navbar-container .navbar-home-icon {
+.topbar {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.topbar :first-child {
+    margin-right: auto;
+}
+
+.navbar-home-icon {
     margin-left: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-home-icon img {
-    border-radius: 3rem;
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    padding: 5px 0;  
+    border-radius: 100%;
 }
 
-.navbar-buttons {
-  display: flex;
-  width: 100%;
-  height: 100%; /* for hover */
-  justify-content: flex-end; /* make it start at the end */
-
-  font-size: 1.2rem;
-  font-family: "Merriweather Sans", sans-serif;
-}
-
-.navbar-buttons ul {
-    display: flex;
-    gap: 0rem;  /* Adds consistent spacing between nav items */
-    margin: 0;
-    padding-right: 1rem;
-} 
-  
-  .navbar-buttons a {
-    color: var(--nav-text);
-    font-weight: bold;
-    transition: background-color 0.1s ease; /* Smooth transition for hover effect */
-    padding-right: 1rem;
-    padding-left: 1rem;
-
+.navbar-container {
     display: flex;
     align-items: center;
-    height: 100%; /* so hover highlights from top to bottom */
-  }
-  
-  .navbar-buttons a:hover {
-    background-color: var(--secondary-color);
-    border-radius: 5px; /* rounded corners*/
-  }
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
-  /*
-  nav li:first-child{margin-right: auto} for the image at the left
-  */
+.navbar-container a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: var(--paragraph-font);
+    font-size: var(--nav-text-size);
+    color: black;
+    font-weight: var(--semi-bold);
+}
 
-  .sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    background-color: rgba(19, 41, 139, 0.434);
-    backdrop-filter: blur(10px);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+.navbar-container a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+}
 
+.button-donate {
+    background-color: var(--donate-color);
+    color: white;
+    font-weight: var(--semi-bold);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-left: 1rem;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.button-donate:hover {
+    background-color: var(--donate-color-hover);
+}
+
+.hamburger-container {
     display: none;
+    align-items: center;
+    margin-left: 2rem;
 }
 
-.sidebar ul {
-    width: 100%;
-    padding: 0%;
-}
+@media (max-width: 650px) {
+    .hamburger-container {
+        display: flex;
+    }
 
-.sidebar li{
-    width: 100%;
-}
-
-.sidebar a{
-    width: 100%;
-}
-
-.sidebar .navbar-buttons {
-    width: 100%;
-    height: auto;
-    justify-content: flex-start;
-  }
-
-.sidebar .navbar-buttons ul {
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .sidebar .navbar-buttons li {
-    width: 100%;
-    height: auto;
-  }
-  
-  .sidebar .navbar-buttons a {
-    width: 100%;
-    padding: 1rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .hamburger {
-    display: none;
-  }
-  
-  @media(max-width: 900px) {
-    .hideOnMobile{
+    .hideOnMobile {
         display: none;
     }
-
-    .hamburger {
-        display: block;
-    }
 }
-
-    @media(max-width: 400px) {
-        .sidebar{
-            width: 100%;
-        }
-    }

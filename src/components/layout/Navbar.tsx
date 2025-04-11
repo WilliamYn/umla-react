@@ -32,35 +32,29 @@ export default function Navbar() {
   return (
     <>
     <div className='sidebar' style={{ display: sidebarVisible ? 'flex' : 'none' }}>
-        <nav className='navbar-buttons'>
-            <ul>
-                <li className="hideOnWeb" onClick={hideSidebar}><Link href='#'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></Link></li>
-                <li onClick={hideSidebar}><Link href="/">Accueil</Link></li>
-                <li onClick={hideSidebar}><Link href="/projets">Projets</Link></li>
-                <li onClick={hideSidebar}><Link href="/don">Faire un don</Link></li>
-                <li onClick={hideSidebar}><Link href="/histoire">Histoire</Link></li>
-                <li onClick={hideSidebar}><Link href="/impliquer">S&apos;impliquer</Link></li>
-                <li onClick={hideSidebar}><Link href="/contact">Contact</Link></li>
-            </ul>
-        </nav>
-    </div>
-    <div className='navbar-container'>
-        <div className="navbar-home-icon">
-            <Link href="/">
-                <img src="/umla-logo-round.JPG" alt="Logo"/>
-            </Link>
+        <div className='sidebar-container'>
+            <Link href="/">Accueil</Link>
+            <Link href="/about">Événements</Link>
+            <Link href="/contact">Bénévolat</Link>
         </div>
-      <nav className='navbar-buttons'>
-        <ul>
-          <li className="hideOnMobile"><Link href="/">Accueil</Link></li>
-          <li className="hideOnMobile"><Link href="/projets">Projets</Link></li>
-          <li className="hideOnMobile"><Link href="/don">Faire un don</Link></li>
-          <li className="hideOnMobile"><Link href="/histoire">Histoire</Link></li>
-          <li className="hideOnMobile"><Link href="/impliquer">S&apos;impliquer</Link></li>
-          <li className="hideOnMobile"><Link href="/contact">Contact</Link></li>
-          <li onClick={showSidebar} className='hamburger'><Link href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></Link></li>
-        </ul>
-      </nav>
+    </div>
+
+    <div className='topbar'>
+      <div className='navbar-home-icon'>
+        <Link href="/">
+          <img src="/umla-logo-round.JPG" alt="Logo"/>
+        </Link>
+      </div>
+      <div className='navbar-container'>
+        <Link href="/" className='hideOnMobile'>Accueil</Link>
+        <Link href="/about" className='hideOnMobile'>Événements</Link>
+        <Link href="/contact" className='hideOnMobile'>Bénévolat</Link>
+        <button className='button-donate'>
+          Faire un don
+        </button>
+        <div className='hamburger-container'>
+          <Link href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></Link>        </div>
+      </div>
     </div>
     </>
   );
