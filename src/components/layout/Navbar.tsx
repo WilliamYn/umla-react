@@ -6,27 +6,29 @@ import { useState, useEffect } from 'react';
 
 export default function Navbar() {
     const [sidebarVisible, setSidebarVisible] = useState(false);
+    /*
     const showSidebar = () => {
         setSidebarVisible(true);
-      };
+      };*/
     
       const hideSidebar = () => {
         setSidebarVisible(false);
       };
 
         // Optional: Close sidebar when clicking outside or pressing escape
+        /*
   useEffect(() => {
     const handleEscKey = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
         setSidebarVisible(false);
       }
-    };
-
+    };*/
+/*
     window.addEventListener('keydown', hideSidebar);
     return () => {
       window.removeEventListener('keydown', hideSidebar);
     };
-  }, []);
+  }, []);*/
 
 
   return (
