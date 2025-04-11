@@ -83,7 +83,7 @@ export default function Home() {
           </div>
         </div>
       
-
+{/*comment faire un commentaire sur une ligne*/}
         <div className='mission-section-mobile'>
           <h2>Notre mission</h2>
           <p>Apporter de l’aide concrète, humaine et digne aux personnes en situation de vulnérabilité. Qu’il s’agisse de personnes sans-abris, de familles marginalisées ou d’individus isolés, nous tendons la main, toujours avec <strong>respect, bienveillance et constance.</strong></p>
