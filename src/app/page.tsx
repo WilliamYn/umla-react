@@ -67,6 +67,22 @@ export default function Home() {
         </div>
       </div>
 
+
+      <div className='mission-section-bg'>
+        <div className='mission-section'>
+          <div className='mission-images-container'>
+            <img src="/food-1.jpg" alt="mission-image-1"/>
+            <img src="/food-2.jpg" alt="mission-image-2"/> 
+            <img src="/food-3.jpg" alt="mission-image-3"/>
+          </div>
+          <div className='mission-text-container'>
+            <h2>Notre mission</h2>
+            <p className='mission-text-p1'>Apporter de l’aide concrète, humaine et digne aux personnes en situation de vulnérabilité. Qu’il s’agisse de personnes sans-abris, de familles marginalisées ou d’individus isolés, nous tendons la main, toujours avec <strong>respect, bienveillance et constance.</strong></p>
+            <p className='mission-text-p2'>UMLA, c’est une communauté vivante, unie par les <strong>valeurs d’entraide, de justice sociale et de fraternité.</strong> Ensemble, on nourrit les corps et on réchauffe les coeurs.</p>
+            <button className='button-help-us'>Comment nous aider ?</button>
+          </div>
+        </div>
+      </div>
     </div>
     </>
   );

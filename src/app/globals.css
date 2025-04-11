@@ -8,7 +8,9 @@
   --donate-color-hover: rgb(234, 88, 12);
   --volunteer-color: rgb(16, 188, 249);
   --volunteer-color-hover: rgb(10, 120, 165);
-
+  --soft-blue-bg-color: #EDF6FF;
+  --highlight-blue-color: #015CAB;
+  --highlight-blue-color-hover: #014A8C;
 
   --title-font: 'Montserrat', sans-serif;
   --section-header-font: 'Poppins', sans-serif;
