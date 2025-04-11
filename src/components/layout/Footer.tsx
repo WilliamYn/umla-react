@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Footer.css';
+import Link from 'next/link';
 
 /*
 <a target="_blank" href="https://icons8.com/icon/32292/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
@@ -12,9 +13,9 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer-content'>
         <div className='footer-content-left'>
-            <img src="/umla-logo-round.JPG" alt="UMLA" />
+            <Link href="/"><img src="/umla-logo-round.JPG" alt="UMLA" /></Link>
             <h1>UMLA</h1>
-        </div>
+        </div>  
         <div className='footer-content-middle'>
             <h2>Contactez-nous</h2>
             <a href="mailto:contact@umla.com" className="text-white hover:underline">Email: contact@umla.com</a>

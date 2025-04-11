@@ -3,7 +3,7 @@
     margin-top: 2rem;
     background-color: var(--hero-bg-color);
     text-align: center;
-    height: 8rem;
+    min-height: 8rem;
     display: flex;
     align-items: flex-start;
     padding-top: 1.5rem;
@@ -74,8 +74,23 @@
 }
 
 @media (max-width: 768px) {
-    .footer {
-        display: none;
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-content-left {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0.5rem;
+    }
+
+    .footer-content-middle {
+        align-items: center;
+        padding-bottom: 0.5rem;
     }
     
+    .footer-content-right { 
+        align-items: center;
+        padding-bottom: 1rem;
+    }
 }
