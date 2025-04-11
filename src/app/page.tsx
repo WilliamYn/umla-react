@@ -4,7 +4,7 @@ import './page.css';
 
 export default function Home() {
   return (
-    <>
+    <div className='homePage-container'>
     <div className='homePage'>
       <div className='hero-section-web'>
         <div className='hero-section-left'>
@@ -110,6 +110,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-    </>
+    </div>
   );
 }
