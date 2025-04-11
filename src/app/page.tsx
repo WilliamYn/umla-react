@@ -75,15 +75,16 @@ export default function Home() {
             <img src="/food-2.jpg" alt="mission-image-2"/> 
             <img src="/food-3.jpg" alt="mission-image-3"/>
           </div>
-          <div className='mission-text-container'>
-            <h2>Notre mission</h2>
+          <div className='mission-right'>
+            <div className='mission-text-container'>
+              <h2>Notre mission</h2>
             <p className='mission-text-p1'>Apporter de l’aide concrète, humaine et digne aux personnes en situation de vulnérabilité. Qu’il s’agisse de personnes sans-abris, de familles marginalisées ou d’individus isolés, nous tendons la main, toujours avec <strong>respect, bienveillance et constance.</strong></p>
             <p className='mission-text-p2'>UMLA, c’est une communauté vivante, unie par les <strong>valeurs d’entraide, de justice sociale et de fraternité.</strong> Ensemble, on nourrit les corps et on réchauffe les coeurs.</p>
-            <button className='button-help-us'>Comment nous aider ?</button>
+              <button className='button-help-us'>Comment nous aider ?</button>
+            </div>
           </div>
         </div>
       
-{/*comment faire un commentaire sur une ligne*/}
         <div className='mission-section-mobile'>
           <h2>Notre mission</h2>
           <p>Apporter de l’aide concrète, humaine et digne aux personnes en situation de vulnérabilité. Qu’il s’agisse de personnes sans-abris, de familles marginalisées ou d’individus isolés, nous tendons la main, toujours avec <strong>respect, bienveillance et constance.</strong></p>
@@ -94,6 +95,21 @@ export default function Home() {
           </div>
           <p>UMLA, c’est une communauté vivante, unie par les <strong>valeurs d’entraide, de justice sociale et de fraternité.</strong> Ensemble, on nourrit les corps et on réchauffe les coeurs.</p>
           <button className='button-help-us'>Comment nous aider ?</button>
+        </div>
+      </div>
+
+
+
+
+      <div className='rechauffer-section'>
+        <div className='rechauffer-section-left'>
+          <div className='rechauffer-section-left-text'>
+            <h2>Réchauffant des coeurs <span style={{color: 'var(--highlight-blue-color)'}}>depuis 2021</span></h2>
+            <p>Une Main Lave l’Autre (UMLA) agit au plus près de la rue et des réalités humaines. Ce qui n’était qu’un petit groupe d’amis engagés est devenu un organisme solide, structuré et profondément enraciné dans la communauté. </p>
+          </div>
+        </div>
+        <div className='rechauffer-section-right'>
+          <img src="/food-5.jpg" alt="rechauffer-image-1"/>
         </div>
       </div>
     </div>
