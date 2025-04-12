@@ -13,7 +13,7 @@ import ThreeBoxes from "@/components/ThreeBoxes/ThreeBoxes";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home One">
+    <Layout pageTitle="UMLA">
       <MainSlider />
       <Charity />
       <CausesOne />
