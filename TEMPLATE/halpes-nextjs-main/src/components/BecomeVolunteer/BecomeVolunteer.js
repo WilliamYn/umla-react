@@ -14,7 +14,7 @@ const BecomeVolunteer = () => {
                   Join your hand with us for <br /> a better life and future
                 </h2>
                 <div className="become-volunteer__big-text">
-                  <h2>Become a Volunteers</h2>
+                  <h2>Devenez bénévole</h2>
                 </div>
               </div>
               <div className="become-volunteer__btn-box">

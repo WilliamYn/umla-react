@@ -1,5 +1,5 @@
 import becomeVolunteerList from "@/data/becomeVolunteerList";
-import image from "@/images/resources/become-a-volunteer.jpg";
+import image from "@/images/resources/umla-food-1.jpg";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import VolunteerForm from "./VolunteerForm";
@@ -9,9 +9,9 @@ const BecomeVolunteerPage = () => {
     <section className="become-volunteer-page">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Register Now</span>
+          <span className="section-title__tagline">Aidez-nous dès maintenant</span>
           <h2 className="section-title__title">
-            Let’s join our community to <br /> become a volunteer
+            Rejoignez notre communauté pour <br /> devenir bénévole
           </h2>
         </div>
         <Row>
@@ -20,14 +20,12 @@ const BecomeVolunteerPage = () => {
               <div className="become-volunteer-page__img">
                 <Image src={image.src} alt="" />
               </div>
-              <h3 className="become-volunteer-page__title">Requirements</h3>
+              <h3 className="become-volunteer-page__title">Pourquoi devenir bénévole?</h3>
               <p className="become-volunteer-page__text">
-                Aliquam hendrerit a augue insu image pellentes que id erat quis
-                sollicitud null mattis Ipsum is simply dummy typesetting
-                industry. Alienum phaedrum torquatos nec eu, vis detraxit
-                periculis ex, nihil expetendis in meifn pericula euripidis, hinc
-                partem ei est. Eos ei nisl graecis, aperiri consequat anlorem
-                tincidun.
+                Nous sommes une association qui a pour but de venir en aide aux personnes les plus vulnérables de notre société.
+                Nous organisons des maraudes chaque mois, hiver comme été, pour distribuer des repas et des vêtements aux personnes les plus vulnérables.
+                Nous avons besoin de bénévoles pour venir en aide à nos maraudes.
+                Nous avons besoin d'aide pour la préparation des repas, la distribution des vêtements et des chaussures.
               </p>
               <ul className="become-volunteer-page__list list-unstyled">
                 {becomeVolunteerList.map((item, index) => (
@@ -46,7 +44,7 @@ const BecomeVolunteerPage = () => {
                   <span className="icon-chat"></span>
                 </div>
                 <div className="become-volunteer-page__phone-text">
-                  <p>Call Anytime</p>
+                  <p>Nous joindre</p>
                   <a href="tel:92 666 888 0000">92 666 888 0000</a>
                 </div>
               </div>

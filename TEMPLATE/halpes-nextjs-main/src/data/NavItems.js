@@ -1,7 +1,7 @@
 const navItems = [
   {
     id: 1,
-    name: "Home",
+    name: "Accueil",
     href: "/",
     subNavItems: [
 
@@ -12,10 +12,9 @@ const navItems = [
     name: "Pages",
     href: "",
     subNavItems: [
-      { id: 1, name: "About", href: "/about" },
-      { id: 2, name: "Volunteers", href: "/volunteers" },
-      { id: 3, name: "Gallery", href: "/gallery" },
-      { id: 4, name: "Become a Volunteer", href: "/become-volunteer" },
+      { id: 1, name: "A Propos", href: "/about" },
+      { id: 2, name: "Bénévoles", href: "/volunteers" },
+      { id: 3, name: "Galerie", href: "/gallery" },
     ],
   },
   {
@@ -35,7 +34,14 @@ const navItems = [
       { id: 1, name: "Events", href: "/events" },
       { id: 2, name: "Event Details", href: "/event-details" },
     ],
-  }
+  },
+  {
+    id: 5,
+    name: "Devenir bénévole",
+    href: "/become-volunteer",
+    subNavItems: [
+    ],
+  },
 ];
 
 export default navItems;

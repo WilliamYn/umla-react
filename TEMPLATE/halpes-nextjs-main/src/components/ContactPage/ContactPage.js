@@ -29,7 +29,7 @@ const ContactPage = () => {
                       <span className="icon-chat"></span>
                     </div>
                     <div className="text">
-                      <p>Call Anytime</p>
+                      <p>Nous joindre</p>
                       <a href={`tel:${tel}`}>{tel}</a>
                     </div>
                   </li>

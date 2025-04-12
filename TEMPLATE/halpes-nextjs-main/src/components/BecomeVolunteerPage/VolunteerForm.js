@@ -28,31 +28,31 @@ const VolunteerForm = () => {
       <Row>
         <Col xl={12}>
           <div className="become-volunteer-page__input">
-            <input type="text" placeholder="Your name" name="name" />
+            <input type="text" placeholder="Nom" name="name" />
           </div>
         </Col>
       </Row>
       <Row>
         <Col xl={6}>
           <div className="become-volunteer-page__input">
-            <input type="email" placeholder="Email Address" name="email" />
+            <input type="email" placeholder="Adresse courriel" name="email" />
           </div>
         </Col>
         <Col xl={6}>
           <div className="become-volunteer-page__input">
-            <input type="text" placeholder="Phone Number" name="phone" />
+            <input type="text" placeholder="Numéro de téléphone" name="phone" />
           </div>
         </Col>
       </Row>
       <Row>
         <Col xl={12}>
           <div className="become-volunteer-page__input">
-            <input type="text" placeholder="Address" name="address" />
+            <input type="text" placeholder="Adresse" name="address" />
           </div>
         </Col>
         <Col xl={12}>
           <div className="become-volunteer-page__input">
-            <input type="text" placeholder="Date of Birth" name="dateOfBirth" />
+            <input type="text" placeholder="Date de naissance" name="dateOfBirth" />
           </div>
         </Col>
         <Col xl={12}>
@@ -62,10 +62,10 @@ const VolunteerForm = () => {
         </Col>
         <Col xl={12}>
           <div className="become-volunteer-page__input">
-            <textarea name="message" placeholder="Write message"></textarea>
+            <textarea name="message" placeholder="Message"></textarea>
           </div>
           <button type="submit" className="thm-btn become-volunteer-page__btn">
-            <i className="fas fa-arrow-circle-right"></i>Submit Comment
+            <i className="fas fa-arrow-circle-right"></i>Envoyer
           </button>
         </Col>
       </Row>

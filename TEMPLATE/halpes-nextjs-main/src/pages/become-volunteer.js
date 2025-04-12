@@ -5,8 +5,8 @@ import React from "react";
 
 const BecomeVolunteer = () => {
   return (
-    <Layout pageTitle="Become a Volunteer">
-      <PageHeader pageTitle="Become a Volunteer" />
+    <Layout pageTitle="Devenez bénévole">
+      <PageHeader pageTitle="Devenez bénévole" />
       <BecomeVolunteerPage />
     </Layout>
   );

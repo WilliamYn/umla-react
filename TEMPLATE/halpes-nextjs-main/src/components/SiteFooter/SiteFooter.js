@@ -70,7 +70,7 @@ const SiteFooter = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Call Anytime</span>
+                        <span>Nous joindre</span>
                         <a href={`tel:${tel}`}>{tel}</a>
                       </p>
                     </div>
