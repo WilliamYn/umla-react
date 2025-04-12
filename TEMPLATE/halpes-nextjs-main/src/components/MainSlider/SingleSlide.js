@@ -19,12 +19,12 @@ const SingleSlide = ({ slide = {} }) => {
               <p>{subTitle}</p>
               <h2>
                 {title} <br />
-                in Need
+                les autres
               </h2>
               <a href={href} className="thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Learn More
               </a>
-              <div className="main-slider__shape-1 zoom-fade">
+              <div className="main-slider__shape-1 zoom-fade" style={{ display: "none" }}>
                 <Image src={image.src} alt="" />
               </div>
             </div>

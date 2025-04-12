@@ -5,7 +5,7 @@ import ReactVisibilitySensor from "react-visibility-sensor";
 const countBar = [
   {
     id: 1,
-    title: "Charity",
+    title: "Charité",
     percent: 83,
   },
   {
@@ -28,31 +28,30 @@ const CharityContent = () => {
     <Col xl={6} lg={6}>
       <div className="welcome-one__right">
         <div className="section-title text-left">
-          <span className="section-title__tagline">Welcome to Charity</span>
+          <span className="section-title__tagline">Bienvenue à notre charité</span>
           <h2 className="section-title__title">
-            Helping each other can make world better
+            Aider les autres peut rendre le monde meilleur
           </h2>
         </div>
         <p className="welcome-one__right-text">
-          Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do
-          eiusmod tempor incididunt ut labore et simply free text dolore magna
-          aliqua lonm andhn.
+        Apporter de l'aide concrète, humaine et digne aux personnes en situation de vulnérabilité. Qu'il s'agisse de personnes sans-abris, de familles marginalisées ou d'individus isolés, nous tendons la main, toujours avec <strong>respect, bienveillance et constance</strong>.<br/>
+        UMLA, c'est une communauté vivante, unie par les valeurs <strong>d'entraide, de justice sociale et de fraternité</strong>. Ensemble, on nourrit les corps et on réchauffe les coeurs.
         </p>
         <div className="welcome-one__our-mission-and-story">
           <div className="welcome-one__mission-and-story-single">
             <h3>
-              <i className="fas fa-arrow-circle-right"></i>Our Mission
+              <i className="fas fa-arrow-circle-right"></i>Notre Mission
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-              Lorem ipsum dolor sit amet not is consectetur notted.
+              Nourrir les corps et réchauffer les coeurs. Donner de l'espoir aux personnes en difficulté. Vêtir les personnes en difficulté.
             </p>
           </div>
           <div className="welcome-one__mission-and-story-single">
             <h3>
-              <i className="fas fa-arrow-circle-right"></i>Our Story
+              <i className="fas fa-arrow-circle-right"></i>Notre Histoire
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-              Lorem ipsum dolor sit amet not is consectetur notted.
+              Fournir de l'aide depuis 2021. Nous sommes une équipe de bénévoles qui travaille ensemble pour aider les personnes en difficulté.
             </p>
           </div>
         </div>
@@ -87,7 +86,7 @@ const CharityContent = () => {
           ))}
         </div>
         <a href="#" className="welcome-one__btn thm-btn">
-          <i className="fas fa-arrow-circle-right"></i>Learn More
+          <i className="fas fa-arrow-circle-right"></i>En savoir plus
         </a>
       </div>
     </Col>

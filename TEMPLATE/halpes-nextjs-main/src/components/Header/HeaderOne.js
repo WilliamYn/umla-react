@@ -2,6 +2,7 @@ import { useRootContext } from "@/context/context";
 import navItems, { social } from "@/data/NavItems";
 import useScroll from "@/hooks/useScroll";
 import logo from "@/images/resources/logo-1.png";
+import umlaLogoRect from "@/images/resources/umla-logo-rect.png";
 import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
@@ -16,7 +17,7 @@ const HeaderOne = () => {
       <div className="main-header__logo">
         <Link href="/">
           <a>
-            <Image src={logo.src} alt="" />
+            <Image src={umlaLogoRect.src} alt="" />
           </a>
         </Link>
       </div>
@@ -26,16 +27,14 @@ const HeaderOne = () => {
             <div className="main-menu-wrapper__left">
               <div className="main-menu-wrapper__left-content">
                 <div className="main-menu-wrapper__left-text">
-                  <p>Welcome to the Charity & Donation Theme</p>
+                  <p>Bienvenue chez UMLA</p>
                 </div>
                 <div className="main-menu-wrapper__left-email-box">
                   <div className="icon">
                     <i className="fas fa-envelope"></i>
                   </div>
                   <div className="email">
-                    <a href="mailto:needhelp@company.com">
-                      needhelp@company.com
-                    </a>
+                    <a href="mailto:contact@umla.com">contact@umla.com</a>
                   </div>
                 </div>
               </div>
@@ -80,22 +79,12 @@ const HeaderOne = () => {
               <div className="main-menu__right">
                 <span
                   onClick={toggleSearch}
-                  style={{ cursor: "pointer" }}
+                  style={{ cursor: "pointer", display: "none" }}
                   className="main-menu__search search-toggler icon-magnifying-glass"
                 ></span>
-                <a href="#" className="main-menu__cart icon-shopping-cart "></a>
-                <div className="main-menu__phone-contact">
-                  <div className="main-menu__phone-icon">
-                    <span className="icon-chat"></span>
-                  </div>
-                  <div className="main-menu__phone-number">
-                    <p>Call Anytime</p>
-                    <a href="tel:92 666 888 0000">92 666 888 0000</a>
-                  </div>
-                </div>
                 <Link href="/causes-details">
                   <a className="main-menu__donate-btn">
-                    <i className="fa fa-heart"></i>Donate
+                    <i className="fa fa-heart"></i>Faire un don
                   </a>
                 </Link>
               </div>

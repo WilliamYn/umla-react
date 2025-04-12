@@ -1,6 +1,6 @@
-import bg1 from "@/images/backgrounds/main-slider-1-1.jpg";
-import bg2 from "@/images/backgrounds/main-slider-2-1.jpg";
-import bg3 from "@/images/backgrounds/main-slider-3-1.jpg";
+import bg1 from "@/images/backgrounds/umla-bg-1.jpg";
+import bg2 from "@/images/backgrounds/umla-bg-2.jpg";
+import bg3 from "@/images/backgrounds/umla-bg-3.jpg";
 import image from "@/images/shapes/main-slider-1-shape-1.png";
 
 const mainSliderData = [
@@ -8,24 +8,24 @@ const mainSliderData = [
     id: 1,
     image,
     bg: bg1,
-    subTitle: "Helping Them Today",
-    title: "Help the Poor",
+    subTitle: "Commencer aujourd'hui",
+    title: "Aider",
     href: "#",
   },
   {
     id: 2,
     image,
     bg: bg2,
-    subTitle: "Helping Them Today",
-    title: "Help the Poor",
+    subTitle: "Commencer aujourd'hui",
+    title: "Aider",
     href: "#",
   },
   {
     id: 3,
     image,
     bg: bg3,
-    subTitle: "Helping Them Today",
-    title: "Help the Poor",
+    subTitle: "Commencer aujourd'hui",
+    title: "Aider",
     href: "#",
   },
 ];
@@ -35,12 +35,12 @@ export default mainSliderData;
 export const mainSliderCounter = [
   {
     id: 1,
-    count: 4390,
-    title: "Volunteers are Available",
+    count: 30,
+    title: "Bénévoles par maraude",
   },
   {
     id: 2,
-    count: 8900,
-    title: "Funds Raised by People",
+    count: 2400,
+    title: "Personnes aidées par an",
   },
 ];
