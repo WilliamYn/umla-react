@@ -22,8 +22,8 @@ const mainSlideOptions = {
     clickable: true,
   },
   navigation: {
-    nextEl: "#main-slider__swiper-button-next",
-    prevEl: "#main-slider__swiper-button-prev",
+    nextEl: "#main-slider__swiper-button-prev",
+    prevEl: "#main-slider__swiper-button-next",
   },
   autoplay: {
     delay: 5000,
