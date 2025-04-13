@@ -30,9 +30,11 @@ const SiteFooter = () => {
               <div className="footer-widget__column footer-widget__about">
                 <h3 className="footer-widget__title">À propos</h3>
                 <p className="footer-widget__text">{about}</p>
-                <a href="/causes-details" className="footer-widget__about-btn">
-                  <i className="fa fa-heart"></i>Faire un don
-                </a>
+                <Link href="/causes-details">
+                  <a className="footer-widget__about-btn">
+                    <i className="fa fa-heart"></i>Faire un don
+                  </a>
+                </Link>
               </div>
             </Col>
             <Col
@@ -143,7 +145,12 @@ const SiteFooter = () => {
                   </div>
                   <div className="site-footer__bottom-social">
                     {social.map(({ id, icon, href }) => (
-                      <a href={href} key={id} target="_blank">
+                      <a 
+                        href={href} 
+                        key={id} 
+                        target="_blank" 
+                        rel="noreferrer noopener"
+                      >
                         <i className={`fab ${icon}`}></i>
                       </a>
                     ))}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Col } from "react-bootstrap";
+import Link from "next/link";
 
 const SingleBox = ({ singleBox }) => {
   const { icon, title, className, text } = singleBox;
@@ -20,9 +21,11 @@ const SingleBox = ({ singleBox }) => {
             <p className="three-boxes__text">
             {text}
             </p>
-            <a href="/causes-details" className="three-boxes__btn">
-              <i className="fa fa-heart"></i>Donner{" "}
-            </a>
+            <Link href="/causes-details">
+              <a className="three-boxes__btn">
+                <i className="fa fa-heart"></i>Donner{" "}
+              </a>
+            </Link>
           </div>
         </div>
       </div>
