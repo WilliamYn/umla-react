@@ -22,7 +22,7 @@ const SingleSlide = ({ slide = {} }) => {
                 les autres
               </h2>
               <a href={href} className="thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Learn More
+                <i className="fas fa-arrow-circle-right"></i>Devenir bénévole
               </a>
               <div className="main-slider__shape-1 zoom-fade" style={{ display: "none" }}>
                 <Image src={`/images/shapes/${image}`} alt="" />

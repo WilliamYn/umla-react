@@ -1372,9 +1372,31 @@
 }
 
 @media (max-width: 767px) {
+
+  .main-menu-wrapper__bottom {
+    position: relative;
+    display: block;
+    padding: 0 30px 0;
+  }
+
+  .main-menu__right {
+    padding-left: 10px;
+    margin-left: auto;
+  }
+
+  .main-menu__donate-btn {
+    margin-left: 0;
+  }
+
   .main-header__logo {
     width: 100%;
-    padding: 19px 0;
+    padding: 10px 0;
+  }
+
+  .main-header__logo img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 0;
   }
 
   .main-menu-wrapper__top {
@@ -1384,7 +1406,7 @@
   .main-menu-wrapper {
     float: left;
     width: 100%;
-    padding: 23px 0;
+    padding: 10px 0;
   }
 
   .main-menu__phone-contact {
@@ -1392,7 +1414,7 @@
   }
 
   .main-menu__donate-btn {
-    display: none;
+
   }
 
   .main-menu__two .mobile-nav__toggler {
