@@ -6,23 +6,22 @@ const HelpingOne = () => {
     <section className="helping-one">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Latest Causes</span>
+          <span className="section-title__tagline">Plus d'informations</span>
           <h2 className="section-title__title">
-            Find the popular cause <br />
-            and donate them
+            Nous aidons aujourd'hui <br />
+            et nous aidons demain
           </h2>
         </div>
         <Row>
-          <Col xl={6} lg={6}>
+          <Col xl={12} lg={12}>
             <div className="helping-one__left">
               <h3 className="helping-one__title">
-                We’re Helping Today. Helping Tommorow
+                Faisons une différence
               </h3>
               <p className="helping-one__text">
-                There are many variations of passages of available but the
-                majority have suffered alteration in some form, by injected
-                humou or randomised words even slightly believable. All the
-                Lorem Ipsum generators on the Internet tend.
+                Nous aidons aujourd'hui et nous aidons demain. Les communautés
+                locales sont essentielles pour le succès de nos programmes. Notre histoire est une histoire de collaboration et de partage.
+                Nous croyons fermement que chaque individu peut faire une différence. 
               </p>
               <ul className="helping-one__left-list list-unstyled">
                 <li>
@@ -30,7 +29,7 @@ const HelpingOne = () => {
                     <i className="fas fa-arrow-circle-right"></i>
                   </div>
                   <div className="helping-one__left-text">
-                    <p>Making this the first true generator on the Internet</p>
+                    <p>Faire une différence</p>
                   </div>
                 </li>
                 <li>
@@ -38,7 +37,7 @@ const HelpingOne = () => {
                     <i className="fas fa-arrow-circle-right"></i>
                   </div>
                   <div className="helping-one__left-text">
-                    <p>Lorem Ipsum is not simply random text</p>
+                    <p>Aider les plus vulnérables</p>
                   </div>
                 </li>
                 <li>
@@ -46,19 +45,19 @@ const HelpingOne = () => {
                     <i className="fas fa-arrow-circle-right"></i>
                   </div>
                   <div className="helping-one__left-text">
-                    <p>If you are going to use a passage</p>
+                    <p>Donner de l'espoir</p>
                   </div>
                 </li>
               </ul>
               <div className="helping-one__left-img">
-                <Image src="/images/resources/helping-one-left-img.jpg" alt="" />
+                <Image src="/images/resources/umla-food-1.jpg" alt="" />
                 <div className="helping-one__left-icon-box">
                   <span className="icon-heart"></span>
                 </div>
               </div>
             </div>
           </Col>
-          <Col xl={6} lg={6}>
+          <Col xl={6} lg={6} style={{ display: "none" }}>
             <div className="helping-one__right">
               <form action="" className="helping-one__right-form">
                 <Row>

@@ -23,7 +23,7 @@ const HelpThem = () => {
                 <Col xl={8} lg={8}>
                   <div className="help-them__top-content">
                     <h2 className="help-them__top-content-title">
-                      Help them whenever they are in need
+                      Aidez les plus vulnérables
                     </h2>
                   </div>
                 </Col>
@@ -35,7 +35,7 @@ const HelpThem = () => {
             <div className="help-them__bottom">
               <Row>
                 {helpThem.map(({ id, title, subTitle, icon }) => (
-                  <Col xl={4} lg={4} key={id}>
+                  <Col xl={6} lg={6} key={id}>
                     <div className="help-them__single">
                       <div className="help-them__icon">
                         <span className={icon}></span>

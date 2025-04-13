@@ -9,28 +9,21 @@ const navItems = [
   },
   {
     id: 2,
-    name: "Faire un don",
-    href: "/causes-details",
-    subNavItems: [
-    ],
-  },
-  {
-    id: 3,
     name: "Événements",
     href: "/events",
     subNavItems: [
     ],
   },
   {
-    id: 4,
+    id: 3,
     name: "Notre équipe",
     href: "/volunteers",
     subNavItems: [
     ],
   },
   {
-    id: 5,
-    name: "Bénévolat",
+    id: 4,
+    name: "Devenir bénévole",
     href: "/become-volunteer",
     subNavItems: [
     ],

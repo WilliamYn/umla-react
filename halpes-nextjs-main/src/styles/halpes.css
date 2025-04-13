@@ -2018,7 +2018,7 @@ h6 {
 
 .welcome-one__progress {
   position: relative;
-  display: block;
+  display: none;
   width: 100%;
   padding-top: 33px;
 }

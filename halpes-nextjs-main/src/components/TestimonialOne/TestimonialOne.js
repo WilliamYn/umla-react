@@ -25,7 +25,7 @@ const settings = {
 
 const TestimonialOne = ({ className = "" }) => {
   return (
-    <section className={`testimonial-one ${className}`}>
+    <section className={`testimonial-one ${className}`} style={{ display: "none" }}>
       <div
         className="testimonial-one-bg"
         style={{

@@ -85,7 +85,7 @@ const CharityContent = () => {
             </div>
           ))}
         </div>
-        <a href="#" className="welcome-one__btn thm-btn">
+        <a href="#" className="welcome-one__btn thm-btn" style={{ display: "none" }}>
           <i className="fas fa-arrow-circle-right"></i>En savoir plus
         </a>
       </div>

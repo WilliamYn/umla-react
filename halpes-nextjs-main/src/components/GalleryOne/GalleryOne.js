@@ -42,7 +42,7 @@ const GalleryOne = ({ className = "" }) => {
               >
                 <div className="gallery-one__img-box">
                   <Image
-                    src={`/images/gallery/${image}`}
+                    src={`${image}`}
                     alt=""
                   />
                   <div className="gallery-one__hover-content-box">

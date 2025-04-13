@@ -6,7 +6,7 @@ import SingleNews from "./SingleNews";
 
 const NewsOne = () => {
   return (
-    <section className="news-one">
+    <section className="news-one" style={{ display: "none" }}>
       <Container>
         <Row>
           <Col xl={8} lg={8}>

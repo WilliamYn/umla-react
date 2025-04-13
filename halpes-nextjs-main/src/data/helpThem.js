@@ -2,23 +2,16 @@ const helpThem = [
   {
     id: 1,
     icon: "icon-charity",
-    title: "Become a Volunteer",
+    title: "Devenir bénévole",
     subTitle:
-      "There are many variations of but the majority have simply free text suffered.",
+      "Vous aidez les plus vulnérables de notre société",
   },
   {
     id: 2,
-    icon: "icon-generous",
-    title: "Quick Fundraising",
-    subTitle:
-      "There are many variations of but the majority have simply free text suffered.",
-  },
-  {
-    id: 3,
     icon: "icon-fundraiser",
-    title: "Start Donating",
+    title: "Faire un don",
     subTitle:
-      "There are many variations of but the majority have simply free text suffered.",
+      "Vous pouvez faire un don pour aider les plus vulnérables de notre société",
   },
 ];
 
