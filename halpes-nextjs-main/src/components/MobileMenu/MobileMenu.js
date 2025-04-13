@@ -44,15 +44,15 @@ const MobileMenu = () => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="fa fa-envelope"></i>
-            <a href="mailto:needhelp@packageName__.com">needhelp@halpes.com</a>
+            <a href="mailto:contact@umla.ca">contact@umla.ca</a>
           </li>
           <li>
             <i className="fa fa-phone-alt"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:000-000-0000">000 000 0000</a>
           </li>
         </ul>
         <div className="mobile-nav__top">
-          <div className="mobile-nav__social">
+          <div className="mobile-nav__social" style={{ display: "none" }}>
             {social.map(({ icon, link }, index) => (
               <a key={index} href={link} className={`fab ${icon}`}></a>
             ))}

@@ -81,18 +81,18 @@ const SiteFooter = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Send Email</span>
+                        <span>Envoyer un courriel</span>
                         <a href={`mailto:${email}`}>{email}</a>
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li style={{ display: "none" }}>
                     <div className="icon">
                       <i className="icon-address"></i>
                     </div>
                     <div className="text">
                       <p>
-                        <span>Visit Office</span>
+                        <span>Visiter le bureau</span>
                         {officeAddress}
                       </p>
                     </div>
@@ -107,7 +107,7 @@ const SiteFooter = () => {
               className="wow fadeInUp"
               data-wow-delay="400ms"
             >
-              <div className="footer-widget__column footer-widget__newsletter">
+              <div className="footer-widget__column footer-widget__newsletter" style={{ display: "none" }}>
                 <h3 className="footer-widget__title">Newsletter</h3>
                 <p className="footer-widget__newsletter-text">
                   Lorem ipsum dolor sit ame consect etur pisicing elit sed do.
@@ -143,7 +143,7 @@ const SiteFooter = () => {
                   </div>
                   <div className="site-footer__bottom-social">
                     {social.map(({ id, icon, href }) => (
-                      <a href={href} key={id}>
+                      <a href={href} key={id} target="_blank">
                         <i className={`fab ${icon}`}></i>
                       </a>
                     ))}
@@ -151,7 +151,7 @@ const SiteFooter = () => {
                 </div>
                 <div className="site-footer__bottom-copy-right">
                   <p>
-                    © Copyright {copyrightYear} by{" "}
+                    © Copyright {copyrightYear} par{" "}
                     <a
                       target="_blank"
                       rel="noreferrer"

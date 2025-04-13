@@ -3599,6 +3599,17 @@ h6 {
   align-items: center;
 }
 
+.site-footer__bottom-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.site-footer__bottom-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .site-footer__bottom-social {
   display: -webkit-box;
   display: flex;

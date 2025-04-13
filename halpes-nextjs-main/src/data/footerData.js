@@ -2,80 +2,61 @@ import { contact } from "./contactData";
 
 const footerData = {
   ...contact,
-  link: "Halpes",
+  link: "UMLA",
+  email: "contact@umla.ca",
+  tel: "000-000-0000",
   copyrightYear: new Date().getFullYear(),
-  about:
-    "Lorem ipsum dolor sit ame consect etur pisicing elit sed do eiusmod tempor incididunt ut labore.",
-  bottomLogo: "/images/resources/footer-logo.jpg",
+  about: "Nous sommes un organisme sans but lucratif qui a pour but de venir en aide aux personnes qui en ont besoin.",
+  bottomLogo: "/images/resources/umla-logo-rect.png",
   footerBg: "/images/backgrounds/umla-bg-1.jpg",
   social: [
     {
       id: 1,
-      href: "#",
-      icon: "fa-twitter"
-    },
-    {
-      id: 2,
-      href: "#",
+      href: "https://www.facebook.com/profile.php?id=61561551389034",
       icon: "fa-facebook-square"
     },
     {
+      id: 2,
+      href: "https://www.instagram.com/umla_mtl/",
+      icon: "fa-instagram"
+    },
+    {
       id: 3,
-      href: "#",
-      icon: "fa-dribbble"
+      href: "https://www.youtube.com/@umla4051",
+      icon: "fa-youtube"
     },
     {
       id: 4,
-      href: "#",
-      icon: "fa-instagram"
+      href: "https://www.tiktok.com/@umla.mtl",
+      icon: "fa-tiktok"
+    },
+    {
+      id: 5,
+      href: "https://www.linkedin.com/company/une-main-lave-l%E2%80%99autre/",
+      icon: "fa-linkedin"
     }
   ],
   exploreList: [
     {
       id: 1,
-      href: "#",
-      title: "Donate"
+      href: "/",
+      title: "Accueil"
     },
     {
       id: 2,
-      href: "#",
-      title: "Campaigns"
+      href: "/causes-details",
+      title: "Faire un don"
     },
     {
       id: 3,
-      href: "#",
-      title: "Fundraise"
+      href: "/become-volunteer",
+      title: "Devenir bénévole"
     },
     {
       id: 4,
-      href: "#",
-      title: "Volunteers"
+      href: "/events",
+      title: "Événements"
     },
-    {
-      id: 5,
-      href: "#",
-      title: "Sponsors"
-    },
-    {
-      id: 6,
-      href: "#",
-      title: "Fundraising"
-    },
-    {
-      id: 7,
-      href: "#",
-      title: "Contact"
-    },
-    {
-      id: 8,
-      href: "#",
-      title: "Help"
-    },
-    {
-      id: 9,
-      href: "#",
-      title: "Faqs"
-    }
   ]
 };
 
