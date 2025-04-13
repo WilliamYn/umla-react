@@ -9,35 +9,28 @@ const navItems = [
   },
   {
     id: 2,
-    name: "Pages",
-    href: "",
+    name: "Faire un don",
+    href: "/causes-details",
     subNavItems: [
-      { id: 1, name: "A Propos", href: "/about" },
-      { id: 2, name: "Bénévoles", href: "/volunteers" },
-      { id: 3, name: "Galerie", href: "/gallery" },
     ],
   },
   {
     id: 3,
-    name: "Donations",
-    href: "/causes",
+    name: "Événements",
+    href: "/events",
     subNavItems: [
-      { id: 1, name: "Causes", href: "/causes" },
-      { id: 2, name: "Causes Details", href: "/causes-details" },
     ],
   },
   {
     id: 4,
-    name: "Events",
-    href: "/events",
+    name: "Notre équipe",
+    href: "/volunteers",
     subNavItems: [
-      { id: 1, name: "Events", href: "/events" },
-      { id: 2, name: "Event Details", href: "/event-details" },
     ],
   },
   {
     id: 5,
-    name: "Devenir bénévole",
+    name: "Bénévolat",
     href: "/become-volunteer",
     subNavItems: [
     ],
