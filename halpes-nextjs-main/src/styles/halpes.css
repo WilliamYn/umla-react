@@ -370,14 +370,9 @@ h6 {
   position: relative;
 }
 
+/* Remove or modify this block to remove the border */
 .main-menu__right:before {
-  position: absolute;
-  top: 28px;
-  left: 0;
-  bottom: 28px;
-  content: "";
-  background-color: #e5eeec;
-  width: 1px;
+    display: none; /* This will hide the border */
 }
 
 @media (max-width: 425px) {

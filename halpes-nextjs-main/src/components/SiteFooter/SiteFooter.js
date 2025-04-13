@@ -66,7 +66,7 @@ const SiteFooter = () => {
               <div className="footer-widget__column footer-widget__contact">
                 <h3 className="footer-widget__title">Contact</h3>
                 <ul className="list-unstyled footer-widget__contact-list">
-                  <li>
+                  <li style={{ display: "none" }}>
                     <div className="icon">
                       <i className="icon-chat"></i>
                     </div>
@@ -145,12 +145,7 @@ const SiteFooter = () => {
                   </div>
                   <div className="site-footer__bottom-social">
                     {social.map(({ id, icon, href }) => (
-                      <a 
-                        href={href} 
-                        key={id} 
-                        target="_blank" 
-                        rel="noreferrer noopener"
-                      >
+                      <a href={href} key={id} target="_blank">
                         <i className={`fab ${icon}`}></i>
                       </a>
                     ))}
