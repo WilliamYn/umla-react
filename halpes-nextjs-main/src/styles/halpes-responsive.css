@@ -552,6 +552,10 @@
     margin-bottom: 30px;
   }
 
+  .helping-one {
+    padding: 20px 0 10px;
+  }
+
   .helping-one__left {
     margin-right: 0;
     margin-bottom: 50px;
@@ -611,7 +615,11 @@
   }
 
   .help-them {
-    padding: 87px 0 60px;
+    padding: 30px 0 0px;
+  }
+
+  .brand-one {
+    padding: 20px 0 10px;
   }
 
   .news-one .section-title__title {

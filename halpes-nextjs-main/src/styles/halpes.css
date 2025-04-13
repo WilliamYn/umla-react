@@ -2513,7 +2513,7 @@ h6 {
 .helping-one {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 50px 0 50px;
 }
 
 .helping-one .section-title {
@@ -2945,9 +2945,8 @@ h6 {
 .help-them__top {
   position: relative;
   display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 93px;
-  padding-bottom: 96px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .help-them__top-content {

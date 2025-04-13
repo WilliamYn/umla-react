@@ -32,7 +32,7 @@ const HelpThem = () => {
                 </Col>
               </Row>
             </div>
-            <div className="help-them__bottom">
+            <div className="help-them__bottom" style={{ display: "none" }}>
               <Row>
                 {helpThem.map(({ id, title, subTitle, icon }) => (
                   <Col xl={6} lg={6} key={id}>

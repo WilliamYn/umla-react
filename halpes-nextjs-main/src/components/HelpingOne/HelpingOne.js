@@ -49,7 +49,7 @@ const HelpingOne = () => {
                   </div>
                 </li>
               </ul>
-              <div className="helping-one__left-img">
+              <div className="helping-one__left-img" style={{ display: "none" }}>
                 <Image src="/images/resources/umla-food-1.jpg" alt="" />
                 <div className="helping-one__left-icon-box">
                   <span className="icon-heart"></span>
