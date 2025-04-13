@@ -6,9 +6,9 @@ const HelpingOne = () => {
     <section className="helping-one">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Plus d'informations</span>
+          <span className="section-title__tagline">Plus d&apos;informations</span>
           <h2 className="section-title__title">
-            Nous aidons aujourd'hui <br />
+            Nous aidons aujourd&apos;hui <br />
             et nous aidons demain
           </h2>
         </div>
@@ -19,7 +19,7 @@ const HelpingOne = () => {
                 Faisons une différence
               </h3>
               <p className="helping-one__text">
-                Nous aidons aujourd'hui et nous aidons demain. Les communautés
+                Nous aidons aujourd&apos;hui et nous aidons demain. Les communautés
                 locales sont essentielles pour le succès de nos programmes. Notre histoire est une histoire de collaboration et de partage.
                 Nous croyons fermement que chaque individu peut faire une différence. 
               </p>
@@ -45,7 +45,7 @@ const HelpingOne = () => {
                     <i className="fas fa-arrow-circle-right"></i>
                   </div>
                   <div className="helping-one__left-text">
-                    <p>Donner de l'espoir</p>
+                    <p>Donner de l&apos;espoir</p>
                   </div>
                 </li>
               </ul>
