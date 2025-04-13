@@ -14,7 +14,7 @@ const BecomeVolunteerPage = () => {
           </h2>
         </div>
         <Row>
-          <Col xl={6} lg={6}>
+          <Col xl={12} lg={12}>
             <div className="become-volunteer-page__left">
               <div className="become-volunteer-page__img">
                 <Image src="/images/resources/umla-food-1.jpg" alt="" />
@@ -49,7 +49,7 @@ const BecomeVolunteerPage = () => {
               </div>
             </div>
           </Col>
-          <Col xl={6} lg={6}>
+          <Col xl={6} lg={6} style={{ display: "none" }}>
             <div className="become-volunteer-page__right">
               <VolunteerForm />
             </div>

@@ -7092,12 +7092,18 @@ h6 {
 
 .become-volunteer-page__img {
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 22px;
 }
 
 .become-volunteer-page__img img {
   width: 100%;
+  max-height: 600px;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
 }
 
 .become-volunteer-page__title {

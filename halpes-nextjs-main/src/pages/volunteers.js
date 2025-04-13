@@ -6,8 +6,8 @@ import React from "react";
 
 const Volunteers = () => {
   return (
-    <Layout pageTitle="Volunteers">
-      <PageHeader pageTitle="Volunteers" />
+    <Layout pageTitle="Notre équipe">
+      <PageHeader pageTitle="Notre équipe" />
       <TeamOne className="team-page" />
       <BecomeVolunteer />
     </Layout>

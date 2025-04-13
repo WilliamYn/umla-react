@@ -11,16 +11,16 @@ const BecomeVolunteer = () => {
             <div className="become-volunteer__inner">
               <div className="become-volunteer__left">
                 <h2>
-                  Join your hand with us for <br /> a better life and future
+                  Rejoignez votre main avec nous pour <br /> une meilleure vie et un avenir meilleur
                 </h2>
                 <div className="become-volunteer__big-text">
-                  <h2>Devenez bénévole</h2>
+                  <h2>Aidez-nous</h2>
                 </div>
               </div>
               <div className="become-volunteer__btn-box">
-                <Link href="/volunteer">
+                <Link href="/become-volunteer">
                   <a className="become-volunteer__btn thm-btn">
-                    <i className="fas fa-arrow-circle-right"></i>Learn More
+                    Devenir bénévole
                   </a>
                 </Link>
               </div>
