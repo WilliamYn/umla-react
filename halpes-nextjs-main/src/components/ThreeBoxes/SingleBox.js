@@ -22,7 +22,7 @@ const SingleBox = ({ singleBox }) => {
             {text}
             </p>
             <Link href="/causes-details">
-              <a className="three-boxes__btn">
+              <a className="three-boxes__btn" style={{ display: "none" }}>
                 <i className="fa fa-heart"></i>Donner{" "}
               </a>
             </Link>

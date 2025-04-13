@@ -8,22 +8,45 @@ const HelpingOne = () => {
         <div className="section-title text-center">
           <span className="section-title__tagline">Plus d&apos;informations</span>
           <h2 className="section-title__title">
-            Nous aidons aujourd&apos;hui <br />
-            et nous aidons demain
+            Histoire de UMLA <br />
+            depuis 2021
           </h2>
         </div>
         <Row>
           <Col xl={12} lg={12}>
             <div className="helping-one__left">
               <h3 className="helping-one__title">
-                Faisons une différence
+                Nos débuts
               </h3>
               <p className="helping-one__text">
-                Nous aidons aujourd&apos;hui et nous aidons demain. Les communautés
-                locales sont essentielles pour le succès de nos programmes. Notre histoire est une histoire de collaboration et de partage.
-                Nous croyons fermement que chaque individu peut faire une différence. 
+                Nous avons commencé à aider les plus vulnérables en 2021.
+                Notre organisation a été créée pour répondre aux besoins des personnes les plus fragiles de notre communauté.
+                Nous avons vu la nécessité de mettre en place un système de distribution de repas et de soins aux personnes les plus vulnérables.
               </p>
-              <ul className="helping-one__left-list list-unstyled">
+              <h3 className="helping-one__title">
+                Notre première maraude
+              </h3>
+              <p className="helping-one__text">
+                Nous avons organisé notre première maraude en 2022. 
+                Nous avons distribué 100 repas à des personnes les plus vulnérables de notre communauté.
+                Nous avons été très heureux de pouvoir aider ces personnes et de pouvoir faire une différence dans leur vie.
+              </p>
+              <h3 className="helping-one__title">
+                Notre premier souper
+              </h3>
+              <p className="helping-one__text">
+                Nous avons organisé un souper pour la Palestine. 
+                Nous avons servi 100 repas à des personnes les plus vulnérables de notre communauté.
+                Nous avons été très heureux de pouvoir aider ces personnes et de pouvoir faire une différence dans leur vie.
+              </p>
+              <h3 className="helping-one__title">
+                Aujourd&apos;hui
+              </h3>
+              <p className="helping-one__text">
+                Nous sommes à la recherche de nouvelles façons de faire une différence dans notre communauté.
+                Nous avons plein de projets en cours et nous avons hâte de vous les présenter.
+              </p>
+              <ul className="helping-one__left-list list-unstyled" style={{ display: "none" }}>
                 <li>
                   <div className="helping-one__left-icon">
                     <i className="fas fa-arrow-circle-right"></i>

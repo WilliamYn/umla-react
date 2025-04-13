@@ -17,7 +17,6 @@ const Home = () => {
       <MainSlider />
       <Charity />
       <CausesOne />
-      <JoinOne />
       <ThreeBoxes />
       <HelpingOne />
       <GalleryOne />
