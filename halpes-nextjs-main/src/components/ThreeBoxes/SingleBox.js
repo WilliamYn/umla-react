@@ -20,7 +20,7 @@ const SingleBox = ({ singleBox }) => {
             <p className="three-boxes__text">
             {text}
             </p>
-            <a href="#" className="three-boxes__btn">
+            <a href="/causes-details" className="three-boxes__btn">
               <i className="fa fa-heart"></i>Donner{" "}
             </a>
           </div>

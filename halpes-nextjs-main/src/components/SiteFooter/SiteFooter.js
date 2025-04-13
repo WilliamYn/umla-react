@@ -28,10 +28,10 @@ const SiteFooter = () => {
           <Row>
             <Col xl={3} lg={6} md={6} className="fadeInUp">
               <div className="footer-widget__column footer-widget__about">
-                <h3 className="footer-widget__title">About</h3>
+                <h3 className="footer-widget__title">À propos</h3>
                 <p className="footer-widget__text">{about}</p>
-                <a href="#" className="footer-widget__about-btn">
-                  <i className="fa fa-heart"></i>Donate
+                <a href="/causes-details" className="footer-widget__about-btn">
+                  <i className="fa fa-heart"></i>Faire un don
                 </a>
               </div>
             </Col>
@@ -43,7 +43,7 @@ const SiteFooter = () => {
               data-wow-delay="200ms"
             >
               <div className="footer-widget__column footer-widget__explore clearfix">
-                <h3 className="footer-widget__title">Explore</h3>
+                <h3 className="footer-widget__title">Explorer</h3>
                 <ul className="footer-widget__explore-list list-unstyled">
                   {exploreList.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>

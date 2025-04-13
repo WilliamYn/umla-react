@@ -5,7 +5,7 @@ const mainSliderData = [
     bg: "/images/backgrounds/umla-bg-1.jpg",
     subTitle: "Commencer aujourd'hui",
     title: "Aider",
-    href: "#",
+    href: "/become-volunteer",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const mainSliderData = [
     bg: "/images/backgrounds/umla-bg-2.jpg",
     subTitle: "Commencer aujourd'hui",
     title: "Aider",
-    href: "#",
+    href: "/become-volunteer",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const mainSliderData = [
     bg: "/images/backgrounds/umla-bg-3.jpg",
     subTitle: "Commencer aujourd'hui",
     title: "Aider",
-    href: "#",
+    href: "/become-volunteer",
   },
 ];
 

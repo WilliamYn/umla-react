@@ -19,7 +19,7 @@ const JoinOne = ({ className = "" }) => {
                 pour aider les autres
               </h2>
               <a href="#" className="join-one__btn thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Learn More
+                <i className="fas fa-arrow-circle-right"></i>Devenir bénévole
               </a>
             </div>
           </Col>
