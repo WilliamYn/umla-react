@@ -18,12 +18,12 @@ const Home = () => {
       <Charity />
       <CausesOne />
       <ThreeBoxes />
-      <HelpingOne />
-      <GalleryOne />
-      <TestimonialOne />
+
       <HelpThem />
-      <NewsOne />
-      <BrandOne />
+      <GalleryOne />
+      
+      <HelpingOne />
+      
     </Layout>
   );
 };
