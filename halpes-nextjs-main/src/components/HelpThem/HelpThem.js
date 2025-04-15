@@ -20,14 +20,14 @@ const HelpThem = () => {
           <Container>
             <div className="help-them__top">
               <Row>
-                <Col xl={8} lg={8}>
+                <Col xl={6} lg={6}>
                   <div className="help-them__top-content">
                     <h2 className="help-them__top-content-title">
                       Aidez les plus vulnérables
                     </h2>
                   </div>
                 </Col>
-                <Col xl={4} lg={4}>
+                <Col xl={6} lg={6}>
                   <Video setOpen={setOpen} />
                 </Col>
               </Row>
