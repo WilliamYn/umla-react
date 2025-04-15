@@ -45,7 +45,7 @@ const footerData = {
     {
       id: 2,
       href: "/causes-details",
-      title: "Faire un don"
+      title: "Notre cause"
     },
     {
       id: 3,
@@ -57,6 +57,11 @@ const footerData = {
       href: "/events",
       title: "Événements"
     },
+    {
+      id: 5,
+      href: "volunteers",
+      title: "Notre équipe"
+    }
   ]
 };
 

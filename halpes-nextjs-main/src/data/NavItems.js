@@ -3,37 +3,31 @@ const navItems = [
     id: 1,
     name: "Accueil",
     href: "/",
-    subNavItems: [
-
-    ],
+    subNavItems: [],
   },
   {
     id: 2,
-    name: "Événements",
-    href: "/events",
-    subNavItems: [
-    ],
+    name: "Notre cause",
+    href: "/causes-details",
+    subNavItems: [],
   },
   {
     id: 3,
-    name: "Notre équipe",
-    href: "/volunteers",
-    subNavItems: [
-    ],
+    name: "Devenir bénévole",
+    href: "/become-volunteer",
+    subNavItems: [],
   },
   {
     id: 4,
-    name: "Devenir bénévole",
-    href: "/become-volunteer",
-    subNavItems: [
-    ],
+    name: "Événements",
+    href: "/events",
+    subNavItems: [],
   },
   {
     id: 5,
-    name: "Notre cause",
-    href: "/causes-details",
-    subNavItems: [
-    ],
+    name: "Notre équipe",
+    href: "/volunteers",
+    subNavItems: [],
   },
 ];
 
