@@ -28,6 +28,13 @@ const navItems = [
     subNavItems: [
     ],
   },
+  {
+    id: 5,
+    name: "Notre cause",
+    href: "/causes-details",
+    subNavItems: [
+    ],
+  },
 ];
 
 export default navItems;

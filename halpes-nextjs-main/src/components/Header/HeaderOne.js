@@ -80,8 +80,8 @@ const HeaderOne = () => {
                   style={{ cursor: "pointer", display: "none" }}
                   className="main-menu__search search-toggler icon-magnifying-glass"
                 ></span>
-                <Link href="/causes-details">
-                  <a className="main-menu__donate-btn">
+                <Link href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b">
+                  <a className="main-menu__donate-btn" rel="noreferrer" target="_blank">
                     <i className="fa fa-heart"></i>Faire un don
                   </a>
                 </Link>
