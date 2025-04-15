@@ -18,8 +18,8 @@ const BecomeVolunteer = () => {
                 </div>
               </div>
               <div className="become-volunteer__btn-box">
-                <Link href="/become-volunteer">
-                  <a className="become-volunteer__btn thm-btn">
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSegLGAZV4gBZ0O0ehf9K8cFANkGiZQ_NmmjmE7jl0PIWlwJCg/viewform">
+                  <a className="become-volunteer__btn thm-btn" rel="noreferrer" target="_blank">
                     Devenir bénévole
                   </a>
                 </Link>
