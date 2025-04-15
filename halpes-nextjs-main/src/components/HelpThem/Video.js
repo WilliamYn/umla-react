@@ -1,25 +1,21 @@
 import VideoData from "@/data/videoData";
 import React from "react";
 
-const Video = ({ setOpen }) => {
-  const { title } = VideoData;
+const Video = () => {
+  const { id, title } = VideoData;
 
   return (
     <section className="help-them__top-video-box">
-      <a
-        onClick={(e) => {
-          e.preventDefault();
-          setOpen(true);
-        }}
-        style={{ cursor: "pointer" }}
-        className="video-img help-them__top-video-btn video-popup"
-        title="Play Icon"
-        id="videolink"
-      >
-        <span className="video-play">
-          <i className="fa fa-play"></i>
-        </span>
-      </a>
+      <div className="help-them__youtube-embed" style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "12px", boxShadow: "0 2px 8px rgba(0,0,0,0.15)" }}>
+        <iframe
+          src={`https://www.youtube.com/embed/${id}`}
+          title={title}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+        ></iframe>
+      </div>
       <p className="help-them__top-video-text">{title}</p>
     </section>
   );
