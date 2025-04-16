@@ -49,7 +49,7 @@ const footerData = {
     },
     {
       id: 3,
-      href: "/become-volunteer",
+      href: "/devenir-benevole",
       title: "Devenir bénévole"
     },
     {

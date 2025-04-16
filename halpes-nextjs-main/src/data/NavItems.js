@@ -14,7 +14,7 @@ const navItems = [
   {
     id: 3,
     name: "Devenir bénévole",
-    href: "/become-volunteer",
+    href: "/devenir-benevole",
     subNavItems: [],
   },
   {
