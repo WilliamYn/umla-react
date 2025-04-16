@@ -54,7 +54,7 @@ const footerData = {
     },
     {
       id: 4,
-      href: "/events",
+      href: "/evenements",
       title: "Événements"
     },
     {

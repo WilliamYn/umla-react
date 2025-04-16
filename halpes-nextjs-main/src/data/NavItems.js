@@ -20,7 +20,7 @@ const navItems = [
   {
     id: 4,
     name: "Événements",
-    href: "/events",
+    href: "/evenements",
     subNavItems: [],
   },
   {
