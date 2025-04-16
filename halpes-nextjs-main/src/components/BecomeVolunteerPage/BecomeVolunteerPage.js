@@ -38,15 +38,9 @@ const BecomeVolunteerPage = () => {
                   </li>
                 ))}
               </ul>
-              <div className="become-volunteer-page__phone">
-                <div className="become-volunteer-page__phone-icon">
-                  <span className="icon-chat"></span>
-                </div>
-                <div className="become-volunteer-page__phone-text">
-                  <p>Nous joindre</p>
-                  <a href="tel:92 666 888 0000">92 666 888 0000</a>
-                </div>
-              </div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSegLGAZV4gBZ0O0ehf9K8cFANkGiZQ_NmmjmE7jl0PIWlwJCg/viewform" className="thm-btn" rel="noreferrer" target="_blank">
+                <i className="fas fa-arrow-circle-right"></i>Devenir bénévole
+              </a>
             </div>
           </Col>
           <Col xl={6} lg={6} style={{ display: "none" }}>

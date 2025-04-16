@@ -20,20 +20,14 @@ const CausesSingle = ({ cause = {}, causePage }) => {
   return (
     <div className={causePage ? "" : "my-4"}>
       <div
-        style={causePage ? {} : { userSelect: "none" }}
-        className="causes-one__single animated fadeInLeft"
-      >
+        style={causePage ? {} : { userSelect: "none" }}>
         <div className="causes-one__img">
           <div className="causes-one__img-box">
             <Image
               src={`/images/resources/${image}`}
               alt=""
             />
-            <Link href="/causes-details">
-              <a>
-                <i className="fa fa-plus"></i>
-              </a>
-            </Link>
+
           </div>
           <div className="causes-one__category">
             <span>{category}</span>
@@ -41,11 +35,11 @@ const CausesSingle = ({ cause = {}, causePage }) => {
         </div>
         <div className="causes-one__content">
           <h3 className="causes-one__title">
-            <Link href="/causes-details">{title}</Link>
+            {title}
           </h3>
           <p className="causes-one__text">{description}</p>
         </div>
-        <div className="causes-one__progress">
+        <div className="causes-one__progress" style={{ display: "none" }}>
           <ReactVisibilitySensor
             offset={{ top: 10 }}
             delayedCall={true}

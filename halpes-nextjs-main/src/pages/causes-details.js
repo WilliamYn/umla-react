@@ -5,8 +5,8 @@ import React from "react";
 
 const CausesDetails = () => {
   return (
-    <Layout pageTitle="Causes Details">
-      <PageHeader pageTitle="Causes Details" />
+    <Layout pageTitle="Notre mission">
+      <PageHeader pageTitle="Notre mission" />
       <CausesDetailsPage />
     </Layout>
   );

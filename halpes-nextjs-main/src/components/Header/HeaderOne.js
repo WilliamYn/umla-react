@@ -40,7 +40,7 @@ const HeaderOne = () => {
             <div className="main-menu-wrapper__right">
               <div className="main-menu-wrapper__right-social">
                 {social.map(({ icon, link }, index) => (
-                  <a href={link} key={index}>
+                  <a href={link} key={index} target="_blank" rel="noreferrer">
                     <i className={`fab ${icon}`}></i>
                   </a>
                 ))}

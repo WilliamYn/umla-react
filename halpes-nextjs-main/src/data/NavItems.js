@@ -7,7 +7,7 @@ const navItems = [
   },
   {
     id: 2,
-    name: "Notre cause",
+    name: "Notre mission",
     href: "/causes-details",
     subNavItems: [],
   },
@@ -34,8 +34,8 @@ const navItems = [
 export default navItems;
 
 export const social = [
-  { icon: "fa-twitter", link: "" },
-  { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-dribbble", link: "" },
-  { icon: "fa-instagram", link: "" },
+  { icon: "fa-facebook-square", link: "https://www.facebook.com/profile.php?id=61561551389034" },
+  { icon: "fa-instagram", link: "https://www.instagram.com/umla_mtl/" },
+  { icon: "fa-youtube", link: "https://www.youtube.com/@umla4051" },
+  { icon: "fa-tiktok", link: "https://www.tiktok.com/@umla.mtl" },
 ];

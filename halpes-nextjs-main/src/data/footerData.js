@@ -45,7 +45,7 @@ const footerData = {
     {
       id: 2,
       href: "/causes-details",
-      title: "Notre cause"
+      title: "Notre mission"
     },
     {
       id: 3,

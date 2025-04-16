@@ -38,9 +38,11 @@ const donations = [
 
 const CausesDetailsRight = () => {
   return (
-    <div className="causes-details__right">
-      <div className="causes-details__organizer">
-        <div className="causes-details__organizer-img">
+    <>
+      <div className="causes-details__right">
+      <Image src="/images/resources/umla-food-1.jpg" alt="" />
+        <div className="causes-details__organizer">
+          <div className="causes-details__organizer-img">
           <Image src="/images/resources/causes-details-organizar-img-1.jpg" alt="" />
         </div>
         <div className="causes-details__organizer-content">
@@ -78,9 +80,10 @@ const CausesDetailsRight = () => {
               </div>
             </li>
           ))}
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

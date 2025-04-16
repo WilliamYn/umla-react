@@ -1,26 +1,34 @@
 const text1 =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.";
+  "Nous organisons des maraudes pour nourrir les personnes vulnérables. Nous nous engageons à offrir une nourriture de qualité et à améliorer leur qualité de vie. Les maraudes sont organisées dans les quartiers les plus défavorisés de la ville de Kigali. Nous nous engageons à offrir une nourriture de qualité et à améliorer leur qualité de vie. Les maraudes sont organisées dans les quartiers les plus défavorisés de la ville de Kigali.";
 const text2 =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+  "Chaque mois, UMLA organise une maraude, peu importe la saison. Été comme hiver, par beau temps ou sous la neige, les bénévoles sillonnent les rues de Montréal pour aller à la rencontre des personnes en situation d’itinérance ou de grande précarité. L’idée est simple mais puissante : créer du lien, apporter du réconfort, et répondre aux besoins immédiats.";
+const text3 =
+  "Lors de chaque maraude, ce sont en moyenne X personnes qui reçoivent un repas chaud, une collation, un café ou un thé réconfortant. Mais au-delà de la nourriture, UMLA distribue aussi des vêtements, des couvertures, et parfois des produits d’hygiène ou de premiers soins. Tout cela est rendu possible grâce à l’implication de Y volontaires, des gens de tous horizons qui donnent un peu de leur temps pour faire une vraie différence.";
+const text4 =
+  "Mais ce qui rend UMLA unique, c’est la philosophie humaine qui la guide. Chaque geste posé, chaque mot échangé repose sur l’idée que la solidarité ne devrait jamais être un luxe. Dans une société souvent marquée par l’individualisme, UMLA rappelle que chacun peut être un maillon de la chaîne de soutien. D’ailleurs, le nom de l’organisme dit tout : Une Main Lave L’Autre — parce qu’on avance mieux ensemble que seul, et que l’entraide commence par de petits gestes.";
+
+
+
 
 const summaryText =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.";
+  "UMLA ne prétend pas tout changer, mais l’organisme change quelque chose de précieux : le quotidien de dizaines de personnes, le temps d’un sourire, d’un repas, d’un instant de dignité partagée.";
+
 
 const causesDetails = {
   raised: "25,270",
   goal: "30,000",
   category: "Medical",
-  title: "Raise Fund for Clean & Healthy Water",
+  title: "Des maraudes pour nourrir les personnes vulnérables",
 
-  images: ["/images/resources/causes-details-images-1.jpg", "/images/resources/causes-details-images-2.jpg", "/images/resources/causes-details-images-3.jpg"],
-  texts: [text1, text2],
+  images: ["/images/resources/umla-food-1.jpg", "/images/resources/umla-food-3.jpg"],
+  texts: [text1, text2, text3, text4],
   summaryText,
   summaryList: [
-    "Making this first true generator",
-    "Many desktop publish packages",
-    "Lorem Ipsum is not simply",
-    "If you are going to passage",
-    "It has roots in a piece",
+    "Repas, collations et boissons chaudes distribués chaque mois",
+    "Vêtements et couvertures offerts selon les saisons",
+    "Présence bienveillante et écoute des personnes dans le besoin",
+    "Des bénévoles mobilisés à chaque maraude, été comme hiver",
+    "Des actions concrètes au cœur des rues de Montréal",
   ],
   comments: [
     {

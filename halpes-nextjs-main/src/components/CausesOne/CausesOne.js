@@ -35,8 +35,7 @@ const CausesOne = () => {
         <div className="section-title text-center">
           <span className="section-title__tagline">Projets</span>
           <h2 className="section-title__title">
-            Nos événements passés <br />
-            et à venir
+            Nos événements
           </h2>
         </div>
         <Row>

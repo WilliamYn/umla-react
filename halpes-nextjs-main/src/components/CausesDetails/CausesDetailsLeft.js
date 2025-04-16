@@ -2,7 +2,6 @@ import causesDetails from "@/data/causesDetails";
 import { social } from "@/data/NavItems";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
-import CommentForm from "../CommentForm/CommentForm";
 import SingleComment from "./SingleComment";
 
 const {
@@ -25,13 +24,12 @@ const CausesDetailsLeft = () => {
   return (
     <div className="causes-details__left-bar">
       <div className="causes-details__img">
-        <div className="causes-details__img-box">
-          <Image src={images[0].src} alt="" />
-          <div className="causes-details__category">
+        <div className="causes-details__img-box" style={{ display: "none" }}>
+          <div className="causes-details__category" style={{ display: "none" }}>
             <span>{category}</span>
           </div>
         </div>
-        <div className="causes-details__progress">
+        <div className="causes-details__progress" style={{ display: "none" }}>
           <div className="bar">
             <div
               className="bar-inner count-bar"
@@ -63,10 +61,10 @@ const CausesDetailsLeft = () => {
       </div>
       <div className="causes-details__images-box">
         <Row>
-          {images.slice(1).map((image, index) => (
+          {images.slice(0).map((image, index) => (
             <Col xl={6} lg={6} key={index}>
               <div className="causes-details__images-single">
-                <Image src={image.src} alt="" />
+                <Image src={image} alt="" />
               </div>
             </Col>
           ))}
@@ -97,7 +95,7 @@ const CausesDetailsLeft = () => {
             <i className="fas fa-arrow-circle-right"></i>Faire un don
           </a>
         </div>
-        <div className="causes-details__share-social">
+        <div className="causes-details__share-social" style={{ display: "none" }}>
           {social.map(({ icon, link }, index) => (
             <a href={link} key={index}>
               <i className={`fab ${icon}`}></i>
@@ -105,7 +103,7 @@ const CausesDetailsLeft = () => {
           ))}
         </div>
       </div>
-      <div className="causes-details__download">
+      <div className="causes-details__download" style={{ display: "none" }}>
         <div className="causes-details__left">
           <div className="icon">
             <Image src="/images/resources/causes-details-download-icon.png" alt="" />
@@ -120,13 +118,12 @@ const CausesDetailsLeft = () => {
           </a>
         </div>
       </div>
-      <div className="comment-one">
+      <div className="comment-one" style={{ display: "none" }}>
         <h3 className="comment-one__title">Comments</h3>
         {comments.map((comment) => (
           <SingleComment key={comment.id} comment={comment} />
         ))}
       </div>
-      <CommentForm />
     </div>
   );
 };
