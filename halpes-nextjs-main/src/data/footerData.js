@@ -45,12 +45,12 @@ const footerData = {
     {
       id: 2,
       href: "/notre-mission",
-      title: "Notre mission"
+      title: "Mission"
     },
     {
       id: 3,
       href: "/devenir-benevole",
-      title: "Devenir bénévole"
+      title: "Bénévolat"
     },
     {
       id: 4,

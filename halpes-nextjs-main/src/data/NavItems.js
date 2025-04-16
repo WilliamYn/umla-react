@@ -7,13 +7,13 @@ const navItems = [
   },
   {
     id: 2,
-    name: "Notre mission",
+    name: "Mission",
     href: "/notre-mission",
     subNavItems: [],
   },
   {
     id: 3,
-    name: "Devenir bénévole",
+    name: "Bénévolat",
     href: "/devenir-benevole",
     subNavItems: [],
   },
