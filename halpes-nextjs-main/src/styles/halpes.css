@@ -1922,7 +1922,7 @@ h6 {
 .welcome-one {
   position: relative;
   display: block;
-  padding: 100px 0 185px;
+  padding: 100px 0 120px;
 }
 
 .welcome-one .row {
@@ -2079,7 +2079,7 @@ h6 {
 .causes-one {
   position: relative;
   display: block;
-  padding: 100px 0 90px;
+  padding: 60px 0 60px;
 }
 
 .causes-one:before {
@@ -2689,14 +2689,6 @@ h6 {
   z-index: 1;
 }
 
-.gallery-one__single:hover .gallery-one__img-box:before {
-  opacity: 1;
-  -webkit-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  -o-transform: translateY(0%);
-  -moz-transform: translateY(0%);
-  transform: translateY(0%);
-}
 
 .gallery-one__img-box img {
   width: 100%;
@@ -2713,49 +2705,11 @@ h6 {
   transform: scale(1.05);
 }
 
-.gallery-one__hover-content-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  -webkit-transform: translateY(50px);
-  -ms-transform: translateY(50px);
-  transform: translateY(50px);
-  z-index: 2;
-}
 
-.gallery-one__hover-content-box h2 {
-  font-size: 24px;
-  color: #ffffff;
-  font-weight: 900;
-  line-height: 34px;
-  margin-bottom: 14px;
-}
 
-.gallery-one__hover-content-box p {
-  font-size: 30px;
-  color: #ffffff;
-  font-family: var(--thm-reey-font);
-  margin: 0;
-  font-weight: 400;
-}
 
-.gallery-one__single:hover .gallery-one__hover-content-box {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  opacity: 1;
-  transition: all 500ms ease 500ms;
-  -webkit-transition: all 500ms ease 500ms;
-  -ms-transition: all 500ms ease 500ms;
-  -o-transition: all 500ms ease 500ms;
-}
+
+
 
 /*--------------------------------------------------------------
 # Testimonial One
