@@ -26,7 +26,7 @@ const navItems = [
   {
     id: 5,
     name: "Notre équipe",
-    href: "/volunteers",
+    href: "/notre-equipe",
     subNavItems: [],
   },
 ];

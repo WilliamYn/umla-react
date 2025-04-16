@@ -59,7 +59,7 @@ const footerData = {
     },
     {
       id: 5,
-      href: "volunteers",
+      href: "/notre-equipe",
       title: "Notre équipe"
     }
   ]
