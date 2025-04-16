@@ -21,7 +21,7 @@ const SingleBox = ({ singleBox }) => {
             <p className="three-boxes__text">
             {text}
             </p>
-            <Link href="/causes-details">
+            <Link href="/notre-mission">
               <a className="three-boxes__btn" style={{ display: "none" }}>
                 <i className="fa fa-heart"></i>Donner{" "}
               </a>

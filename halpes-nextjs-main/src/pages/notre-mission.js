@@ -1,4 +1,4 @@
-import CausesDetailsPage from "@/components/CausesDetails/CausesDetails";
+import CausesDetailsPage from "@/components/NotreMission/NotreMission";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import React from "react";

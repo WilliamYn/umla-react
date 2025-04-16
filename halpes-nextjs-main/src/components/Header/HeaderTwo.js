@@ -55,7 +55,7 @@ const HeaderTwo = () => {
                 </li>
               </ul>
               <div className="main-header-two__btn">
-                <Link href="/causes-details">
+                <Link href="/notre-mission">
                   <a className="main-header-two__donate-btn">
                     <i className="fa fa-heart"></i>Donate{" "}
                   </a>

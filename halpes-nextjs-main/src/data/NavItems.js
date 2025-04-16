@@ -8,7 +8,7 @@ const navItems = [
   {
     id: 2,
     name: "Notre mission",
-    href: "/causes-details",
+    href: "/notre-mission",
     subNavItems: [],
   },
   {

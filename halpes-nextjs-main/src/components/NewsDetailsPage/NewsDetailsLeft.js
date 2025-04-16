@@ -2,7 +2,7 @@ import { social } from "@/data/NavItems";
 import newsDetails from "@/data/newsDetails";
 import React from "react";
 import { Image } from "react-bootstrap";
-import SingleComment from "../CausesDetails/SingleComment";
+import SingleComment from "../NotreMission/SingleComment";
 import CommentForm from "../CommentForm/CommentForm";
 
 const {

@@ -84,7 +84,7 @@ const WhyChoose = () => {
                     </p>
                   </div>
                 </div>
-                <Link href="/causes-details">
+                <Link href="/notre-mission">
                   <a className="why-choose__right-btn">
                     <i className="fa fa-heart"></i>Donate
                   </a>
