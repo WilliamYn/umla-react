@@ -7226,4 +7226,7 @@ h6 {
 .buttons_don_section .causes-details__share-btn {
   width: 250px;
   text-align: center;
+  padding: 18.5px 0px !important;
+  font-size: 19px !important;
+  border-radius: 10px;
 }

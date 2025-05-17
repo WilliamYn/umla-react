@@ -1484,3 +1484,16 @@
     width: 61%;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .buttons_don_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .causes-details__share-btn {
+    width: 80% !important;
+  }
+}
+
