@@ -27,7 +27,7 @@ const DonsPage = () => {
                                 <i className="fas fa-arrow-circle-right"></i>
                             </div>
                             <div className="text">
-                                <p>Maraudes humanitaires : repas, vêtements, produits d'hygiène pour les sans-abris.</p>
+                                <p>Maraudes humanitaires : repas, vêtements, produits d&apos;hygiène pour les sans-abris.</p>
                             </div>
                         </li>
                         <li>
@@ -57,13 +57,13 @@ const DonsPage = () => {
                     </ul>
                 </div>
 
-                <p>Chaque geste compte. Grâce à votre générosité, nous construisons une chaîne humaine forte, où l'entraide
+                <p>Chaque geste compte. Grâce à votre générosité, nous construisons une chaîne humaine forte, où l&apos;entraide
                 et la dignité sont au cur de nos actions.</p>
 
                 <h3>Aspect retour fiscal</h3>
                 <div className="paragraphs">
-                    <p>Faire un don à UMLA, c'est bien plus qu'un simple geste de générosité : c'est un acte concret de solidarité... et un avantage fiscal. En tant qu'organisme enregistré, UMLA remet des reçus officiels pour que vos dons soient déductibles d'impôt. Autrement dit, une partie de votre don vous revient lors de votre déclaration annuelle - vous contribuez à un impact réel tout en bénéficiant d'un retour fiscal avantageux.</p>
-                    <p>C'est une façon intelligente de contribuer à un changement positif, tout en allégeant votre fardeau fiscal. Que vous donniez 20$, 100$ ou plus, chaque contribution peut être déclarée et soutient une cause locale, humaine et transparente. Donner fait du bien, et fait aussi du sens.</p>
+                    <p>Faire un don à UMLA, c&apos;est bien plus qu&apos;un simple geste de générosité : c&apos;est un acte concret de solidarité... et un avantage fiscal. En tant qu&apos;organisme enregistré, UMLA remet des reçus officiels pour que vos dons soient déductibles d&apos;impôt. Autrement dit, une partie de votre don vous revient lors de votre déclaration annuelle - vous contribuez à un impact réel tout en bénéficiant d&apos;un retour fiscal avantageux.</p>
+                    <p>C&apos;est une façon intelligente de contribuer à un changement positif, tout en allégeant votre fardeau fiscal. Que vous donniez 20$, 100$ ou plus, chaque contribution peut être déclarée et soutient une cause locale, humaine et transparente. Donner fait du bien, et fait aussi du sens.</p>
                 </div>
               </div>
             </Col>
