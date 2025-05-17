@@ -24,6 +24,7 @@ const navItems = [
     subNavItems: [],
   },
   /*
+  Temporarily hidden until further approval from UMLA
   {
     id: 5,
     name: "Notre équipe",

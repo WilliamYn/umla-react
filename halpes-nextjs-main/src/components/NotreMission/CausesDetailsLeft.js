@@ -91,7 +91,7 @@ const CausesDetailsLeft = () => {
       </div>
       <div className="causes-details__share">
         <div className="causes-details__share-btn-box">
-          <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn" rel="noreferrer" target="_blank">
+          <a href="/dons" className="causes-details__share-btn thm-btn">
             <i className="fas fa-arrow-circle-right"></i>Faire un don
           </a>
         </div>

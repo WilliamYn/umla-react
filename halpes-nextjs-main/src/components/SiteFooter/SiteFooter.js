@@ -30,8 +30,8 @@ const SiteFooter = () => {
               <div className="footer-widget__column footer-widget__about">
                 <h3 className="footer-widget__title">À propos</h3>
                 <p className="footer-widget__text">{about}</p>
-                <Link href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b">
-                  <a className="footer-widget__about-btn" rel="noreferrer" target="_blank">
+                <Link href="/dons">
+                  <a className="footer-widget__about-btn">
                     <i className="fa fa-heart"></i>Faire un don
                   </a>
                 </Link>

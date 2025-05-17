@@ -1,15 +1,15 @@
-import EventsDetailsPage from "@/components/EventsDetailsPage/EventsDetailsPage";
+import DonsPage from "@/components/DonsPage/DonsPage";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import React from "react";
 
-const EventDetails = () => {
+const Dons = () => {
   return (
     <Layout pageTitle="Dons">
       <PageHeader pageTitle="Faire un don" />
-      <EventsDetailsPage />
+      <DonsPage />
     </Layout>
   );
 };
 
-export default EventDetails;
+export default Dons;
