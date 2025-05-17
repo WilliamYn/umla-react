@@ -3,7 +3,7 @@ import { social } from "@/data/NavItems";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import SingleComment from "./SingleComment";
-
+import Link from "next/link";
 const {
   comments,
   summaryList,
@@ -91,9 +91,11 @@ const CausesDetailsLeft = () => {
       </div>
       <div className="causes-details__share">
         <div className="causes-details__share-btn-box">
-          <a href="/dons" className="causes-details__share-btn thm-btn">
-            <i className="fas fa-arrow-circle-right"></i>Faire un don
-          </a>
+          <Link href="/dons">
+            <a className="causes-details__share-btn thm-btn">
+              <i className="fas fa-arrow-circle-right"></i>Faire un don
+            </a>
+          </Link>
         </div>
         <div className="causes-details__share-social" style={{ display: "none" }}>
           {social.map(({ icon, link }, index) => (
