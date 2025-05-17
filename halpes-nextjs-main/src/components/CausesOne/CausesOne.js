@@ -33,9 +33,9 @@ const CausesOne = () => {
     <section className="causes-one">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Projets</span>
+          <span className="section-title__tagline" style={{ display: "none" }}>Projets</span>
           <h2 className="section-title__title">
-            Nos événements
+            Nos Projets
           </h2>
         </div>
         <Row>
