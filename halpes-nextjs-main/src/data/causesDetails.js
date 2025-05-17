@@ -20,7 +20,7 @@ const causesDetails = {
   category: "Medical",
   title: "Des maraudes pour nourrir les personnes vulnérables",
 
-  images: ["/images/resources/umla-food-1.jpg", "/images/resources/umla-food-3.jpg"],
+  images: ["/images/mission-page/mission-1.jpg", "/images/mission-page/mission-2.jpg"],
   texts: [text1, text2, text3, text4],
   summaryText,
   summaryList: [
