@@ -2,7 +2,7 @@ const mainSliderData = [
   {
     id: 1,
     image: "/images/shapes/main-slider-1-shape-1.png",
-    bg: "/images/backgrounds/umla-bg-1.jpg",
+    bg: "/images/backgrounds/umla-bg-5.jpg",
     subTitle: "Commencer aujourd'hui",
     title: "Aider",
     href: "/devenir-benevole",
