@@ -10,10 +10,6 @@ const CharityImage = () => {
           <div className="welcome-one__img-box-2">
             <Image src="/images/resources/umla-food-1.jpg" alt="" />
           </div>
-          <h2 className="welcome-one__bottom-text">Aider aujourd&apos;hui</h2>
-          <div className="welcome-one__heart-icon">
-            <Image src="/images/resources/welcome-one-heart-icon.png" alt="" />
-          </div>
         </div>
       </div>
     </Col>
