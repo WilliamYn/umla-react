@@ -486,7 +486,8 @@ h6 {
   display: none;
 }
 
-@media (min-width: 1200px) {
+/* mobile menu navbar */
+@media (min-width: 1024px) {
 
   .main-menu .main-menu__list,
   .main-menu .main-menu__list ul,
@@ -681,7 +682,7 @@ h6 {
   color: var(--thm-base);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .main-menu .mobile-nav__toggler {
     display: none;
   }
@@ -7204,7 +7205,7 @@ h6 {
 }
 
 .causes-single_item {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .highlight-phrase {
