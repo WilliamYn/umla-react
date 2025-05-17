@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const CausesSingle = ({ cause = {}, causePage }) => {
+const ProjetsSingle = ({ cause = {}, causePage }) => {
 
   const { image, category, title, description } = cause;
 
@@ -31,4 +31,4 @@ const CausesSingle = ({ cause = {}, causePage }) => {
   );
 };
 
-export default CausesSingle;
+export default ProjetsSingle;

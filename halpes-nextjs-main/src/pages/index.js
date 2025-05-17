@@ -1,4 +1,4 @@
-import CausesOne from "@/components/CausesOne/CausesOne";
+import CausesOne from "@/components/ProjetsOne/CausesOne";
 import Charity from "@/components/Charity/Charity";
 import GalleryOne from "@/components/GalleryOne/GalleryOne";
 import HelpingOne from "@/components/HelpingOne/HelpingOne";
