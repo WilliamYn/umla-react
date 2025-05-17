@@ -5465,7 +5465,7 @@ h6 {
 .causes-details {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 60px 0 100px;
 }
 
 .causes-details__left-bar {
@@ -5663,10 +5663,15 @@ h6 {
 }
 
 .causes-details__summary-list {
-  position: relative;
-  display: block;
-  float: right;
-  overflow: hidden;
+  float: left;
+  margin-top: 30px;
+}
+
+/* Specific override for DonsPage */
+.dons-page .causes-details__summary-list {
+  float: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .causes-details__summary-list-box {
@@ -7200,4 +7205,25 @@ h6 {
 
 .causes-single_item {
   margin-bottom: 30px;
+}
+
+.highlight-phrase {
+  font-weight: bold;
+  color: var(--thm-black);
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.buttons_don_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.buttons_don_section .causes-details__share-btn {
+  width: 250px;
+  text-align: center;
 }
