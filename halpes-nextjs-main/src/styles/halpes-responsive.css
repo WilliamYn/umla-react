@@ -462,6 +462,8 @@
 
   .causes-details__summary {
     margin-top: 9px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .causes-details__right {
@@ -918,6 +920,8 @@
 
   .causes-details__summary {
     margin-top: 9px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .causes-details__right {
@@ -935,6 +939,8 @@
 
   .causes-details__share {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .causes-details__share-social {
@@ -1492,8 +1498,14 @@
     align-items: center;
     justify-content: center;
   }
-  .causes-details__share-btn {
+  .donate-btn-donate-page{
     width: 80% !important;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .causes-details__summary-text {
+    max-width: 100%;
+    text-align: center;
+  }
+}

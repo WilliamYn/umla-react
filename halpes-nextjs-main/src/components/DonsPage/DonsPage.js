@@ -11,10 +11,10 @@ const DonsPage = () => {
             <Col xl={12} lg={12}>
               <div className="causes-details__text-box">
                 <div className="buttons_don_section">
-                    <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn" rel="noreferrer" target="_blank">Je donne 25$</a>
-                    <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn" rel="noreferrer" target="_blank">Je donne 50$</a>
-                    <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn" rel="noreferrer" target="_blank">Je donne 100$</a>
-                    <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn" rel="noreferrer" target="_blank">Je donne 250$</a>
+                    <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn donate-btn-donate-page" rel="noreferrer" target="_blank">Je donne 25$</a>
+                    <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn donate-btn-donate-page" rel="noreferrer" target="_blank">Je donne 50$</a>
+                    <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn donate-btn-donate-page" rel="noreferrer" target="_blank">Je donne 100$</a>
+                    <a href="https://www.zeffy.com/fr-CA/donation-form/08a0cabd-d6a7-4624-8f7f-be381829084b" className="causes-details__share-btn thm-btn donate-btn-donate-page" rel="noreferrer" target="_blank">Je donne 250$</a>
                 </div>
                 <h3>Où vont mes dons ?</h3>
                 <p>À UMLA, 100 % de nos membres sont bénévoles : aucun salaire, aucun avantage personnel. Chaque dollar reçu est utilisé sur le terrain, sans intermédiaire, pour venir en aide aux plus démunis. Nous refusons les frais administratifs inutiles ou les dépenses cachées. Votre argent ne finance pas des bureaux, mais des repas chauds, des vêtements, du transport et des actions concrètes.</p>                
