@@ -2,7 +2,7 @@ import causesData from "@/data/causesData";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import ProjetsSingle from "../ProjetsOne/ProjetsSingle";
+import CausesSingle from "../CausesOne/CausesSingle";
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
 const settings = {
@@ -46,7 +46,7 @@ const CausesTwo = () => {
             <div className="causes-two__carousel">
               <TinySlider settings={settings}>
                 {causesData.map((cause) => (
-                  <ProjetsSingle cause={cause} key={cause.id} />
+                  <CausesSingle cause={cause} key={cause.id} />
                 ))}
               </TinySlider>
             </div>
