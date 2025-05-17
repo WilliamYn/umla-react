@@ -17,7 +17,7 @@ const BecomeVolunteerPage = () => {
           <Col xl={12} lg={12}>
             <div className="become-volunteer-page__left">
               <div className="become-volunteer-page__img">
-                <Image src="/images/resources/umla-food-1.jpg" alt="" />
+                <Image src="/images/benevolat-page/benevolat-1.jpg" alt="" />
               </div>
               <h3 className="become-volunteer-page__title">Pourquoi devenir bénévole?</h3>
               <p className="become-volunteer-page__text">
