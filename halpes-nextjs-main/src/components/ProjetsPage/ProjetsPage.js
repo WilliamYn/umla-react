@@ -1,14 +1,14 @@
-import causesPageData from "@/data/causesPageData";
+import projetsPageData from "@/data/projetsPageData";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import CausesSingle from "../CausesOne/CausesSingle";
 
-const CausesPage = () => {
+const ProjetsPage = () => {
   return (
     <section className="causes-one causes-page">
       <Container>
         <Row>
-          {causesPageData.map((cause) => (
+          {projetsPageData.map((cause) => (
             <Col xl={4} lg={6} md={6} key={cause.id}>
               <CausesSingle causePage cause={cause} />
             </Col>
@@ -19,4 +19,4 @@ const CausesPage = () => {
   );
 };
 
-export default CausesPage;
+export default ProjetsPage;

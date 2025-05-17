@@ -1,4 +1,4 @@
-const causesPageData = [
+const projetsPageData = [
   {
     id: 1,
     image: "causes-page-img-1.jpg",
@@ -92,4 +92,4 @@ const causesPageData = [
   
 ];
 
-export default causesPageData;
+export default projetsPageData;

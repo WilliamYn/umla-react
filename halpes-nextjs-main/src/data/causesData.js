@@ -5,7 +5,7 @@ const causesData = [
     category: "Souper",
     title: "Souper pour la Palestine",
     description:
-      "Le 15 mars 2024, l'UML a organisé un souper pour la Palestine, avec la participation de plusieurs personnes, pour collecter des fonds pour les personnes affectées par la guerre en Palestine.",
+      "Repas solidaire pour la Palestine : prière, partage et collecte de fonds, avec plus de 150 invités unis pour l&apos;amour et la résistance.",
     raised: "0",
     goal: "0",
   },
@@ -13,7 +13,7 @@ const causesData = [
     id: 2,
     image: "umla-food-1.jpg",
     category: "Maraude",
-    title: "Maraude Septembre 2024",
+    title: "Souper caritatif pour la Libye",
     description:
       "Le 15 septembre 2024, l'UML a organisé une maraude pour la Palestine, avec la participation de plusieurs personnes, pour collecter des fonds pour les personnes affectées par la guerre en Palestine.",
     raised: "0",
