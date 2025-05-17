@@ -19,8 +19,7 @@ const CausesSingle = ({ cause = {}, causePage }) => {
 
   return (
     <div className={causePage ? "" : "my-4"}>
-      <div
-        style={causePage ? {} : { userSelect: "none" }}>
+      <div className="causes-single_item" style={causePage ? {} : { userSelect: "none" }}>
         <div className="causes-one__img">
           <div className="causes-one__img-box">
             <Image
@@ -29,7 +28,7 @@ const CausesSingle = ({ cause = {}, causePage }) => {
             />
 
           </div>
-          <div className="causes-one__category">
+          <div className="causes-one__category" style={{ display: "none" }}>
             <span>{category}</span>
           </div>
         </div>

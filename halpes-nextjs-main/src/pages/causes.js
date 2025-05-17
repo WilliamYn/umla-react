@@ -6,7 +6,7 @@ import React from "react";
 const Causes = () => {
   return (
     <Layout pageTitle="Causes">
-      <PageHeader pageTitle="Causes" />
+      <PageHeader pageTitle="Événements" />
       <CausesPage />
     </Layout>
   );
