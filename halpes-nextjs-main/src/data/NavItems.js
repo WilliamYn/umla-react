@@ -20,15 +20,17 @@ const navItems = [
   {
     id: 4,
     name: "Événements",
-    href: "/causes",
+    href: "/evenements",
     subNavItems: [],
   },
+  /*
   {
     id: 5,
     name: "Notre équipe",
     href: "/notre-equipe",
     subNavItems: [],
-  },
+  }
+  */
 ];
 
 export default navItems;
