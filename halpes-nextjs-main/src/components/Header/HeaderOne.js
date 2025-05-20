@@ -75,11 +75,6 @@ const HeaderOne = () => {
                 ))}
               </ul>
               <div className="main-menu__right">
-                <span
-                  onClick={toggleSearch}
-                  style={{ cursor: "pointer", display: "none" }}
-                  className="main-menu__search search-toggler icon-magnifying-glass"
-                ></span>
                 <Link href="/dons">
                   <a className="main-menu__donate-btn">
                     <i className="fa fa-heart"></i>Faire un don
