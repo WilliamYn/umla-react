@@ -44,8 +44,12 @@ const GalleryOne = ({ className = "" }) => {
                   <Image
                     src={`${image}`}
                     alt=""
+                    style={{
+                      width: '100%',
+                      height: '300px',
+                      objectFit: 'cover'
+                    }}
                   />
-
                 </div>
               </div>
             </div>
