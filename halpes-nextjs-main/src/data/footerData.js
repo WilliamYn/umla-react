@@ -7,7 +7,7 @@ const footerData = {
   tel: "000-000-0000",
   copyrightYear: new Date().getFullYear(),
   about: "Nous sommes un organisme sans but lucratif qui a pour but de venir en aide aux personnes qui en ont besoin.",
-  bottomLogo: "/images/resources/umla-logo-rect.png",
+  bottomLogo: "/images/resources/umla-logo-clear.png",
   footerBg: "/images/backgrounds/umla-bg-1.jpg",
   social: [
     {

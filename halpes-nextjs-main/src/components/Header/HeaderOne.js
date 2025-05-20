@@ -15,7 +15,7 @@ const HeaderOne = () => {
       <div className="main-header__logo">
         <Link href="/">
           <a>
-            <Image src="/images/resources/umla-logo-rect.png" alt="" />
+            <Image src="/images/resources/umla-logo-clear.png" alt="" />
           </a>
         </Link>
       </div>

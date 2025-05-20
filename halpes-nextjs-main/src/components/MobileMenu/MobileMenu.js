@@ -29,7 +29,7 @@ const MobileMenu = () => {
         <div className="logo-box">
           <Link href="/">
             <a aria-label="logo image">
-              <Image src="/images/resources/umla-logo-rect.png" width="155" alt="" />
+              <Image src="/images/resources/umla-logo-clear.png" width="155" alt="" />
             </a>
           </Link>
         </div>
