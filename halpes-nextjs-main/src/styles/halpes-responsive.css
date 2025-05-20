@@ -1162,36 +1162,6 @@
     text-align: center;
     margin: 0 0 20px;
   }
-
-  /* Fix for sticky header and donate button on mobile */
-  .stricky-header {
-    width: 100%;
-    left: 0;
-    right: 0;
-  }
-
-  .stricky-header .main-menu__inner {
-    width: 100%;
-    padding: 0 10px;
-  }
-
-  .stricky-header .main-menu__right {
-    padding-left: 0;
-    margin-left: auto;
-  }
-
-  .stricky-header .main-menu__donate-btn {
-    white-space: nowrap;
-    padding: 8px 15px;
-    font-size: 14px;
-    margin-left: 0;
-  }
-
-  /* Ensure the donate button stays in place during transition */
-  .stricky-header.stricky-fixed .main-menu__donate-btn {
-    transform: none;
-    width: auto;
-  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
