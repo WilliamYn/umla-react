@@ -10,7 +10,7 @@ const Preloader = ({ loading }) => {
       <Image
         className="preloader__image"
         width="60"
-        src="/images/loader.png"
+        src="/images/resources/umla-logo-clear.png"
         alt=""
       />
     </div>
