@@ -2080,7 +2080,7 @@ h6 {
 .causes-one {
   position: relative;
   display: block;
-  padding: 60px 0 60px;
+  padding: 60px 0 0px;
 }
 
 .causes-one:before {
@@ -2089,8 +2089,8 @@ h6 {
   left: 0;
   right: 0;
   content: "";
-  height: 510px;
   background: #eff5f4;
+  height: 100%;
   z-index: -1;
 }
 
