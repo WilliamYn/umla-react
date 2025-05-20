@@ -375,7 +375,7 @@ h6 {
     display: none; /* This will hide the border */
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .main-menu__right {
     padding-left: 0;
   }
