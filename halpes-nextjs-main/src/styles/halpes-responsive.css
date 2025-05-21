@@ -189,7 +189,6 @@
 
   .causes-details__summary-list {
     float: left;
-    margin-top: 30px;
   }
 
   .causes-details__download {
@@ -453,7 +452,6 @@
 
   .causes-details__summary-list {
     float: left;
-    margin-top: 30px;
   }
 
   .causes-details__images-single {
@@ -464,6 +462,9 @@
     margin-top: 9px;
     margin-left: 0;
     margin-right: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
 
   .causes-details__right {
@@ -911,7 +912,6 @@
 
   .causes-details__summary-list {
     float: left;
-    margin-top: 30px;
   }
 
   .causes-details__images-single {
@@ -922,6 +922,9 @@
     margin-top: 9px;
     margin-left: 0;
     margin-right: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
 
   .causes-details__right {
@@ -934,7 +937,8 @@
   }
 
   .causes-details__summary-list-box li .text p {
-    font-size: 17px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .causes-details__share {
@@ -1509,3 +1513,4 @@
     text-align: center;
   }
 }
+

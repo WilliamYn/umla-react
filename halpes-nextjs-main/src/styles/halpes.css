@@ -5636,17 +5636,14 @@ h6 {
 }
 
 .causes-details__summary {
-  margin-left: 4rem;
-  margin-right: 4rem;
-  position: relative;
-  display: block;
+  display: flex;
   margin-top: 39px;
   overflow: hidden;
+  justify-content: space-around;
 }
 
 .causes-details__summary-text {
   position: relative;
-  display: block;
   float: left;
   overflow: hidden;
   max-width: 406px;
@@ -5659,7 +5656,6 @@ h6 {
 
 .causes-details__summary-list {
   float: left;
-  margin-top: 30px;
 }
 
 /* Specific override for DonsPage */
