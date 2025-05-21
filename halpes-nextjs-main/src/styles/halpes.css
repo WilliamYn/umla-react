@@ -5366,6 +5366,8 @@ h6 {
   bottom: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  min-height: 400px;
 }
 
 .page-header__bg:before {
@@ -5376,6 +5378,13 @@ h6 {
   width: 100%;
   content: "";
   background-color: rgba(var(--thm-black-rgb), 0.3);
+}
+
+.page-header {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
 }
 
 .page-header .container {
