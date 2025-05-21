@@ -8,9 +8,9 @@ const BecomeVolunteerPage = () => {
     <section className="become-volunteer-page">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Aidez-nous dès maintenant</span>
+          <span className="section-title__tagline">Agissez aujourd&apos;hui</span>
           <h2 className="section-title__title">
-            Rejoignez notre communauté pour <br /> devenir bénévole
+          Devenez bénévole, changez des vies
           </h2>
         </div>
         <Row>
@@ -25,6 +25,11 @@ const BecomeVolunteerPage = () => {
                 Nous organisons des maraudes chaque mois, hiver comme été, pour distribuer des repas et des vêtements aux personnes les plus vulnérables.
                 Nous avons besoin de bénévoles pour venir en aide à nos maraudes.
                 Nous avons besoin d&apos;aide pour la préparation des repas, la distribution des vêtements et des chaussures.
+              </p>
+              <br />
+              <p className="become-volunteer-page__text">
+                En tant que bénévole, vous participerez à la réalisation de nos maraudes, en distribuant des repas et des vêtements aux personnes les plus vulnérables.
+                Vous participerez également à des rencontres avec l&apos;équipe pour organiser des événements et des activités qui visent à venir en aide aux personnes. 
               </p>
               <ul className="become-volunteer-page__list list-unstyled">
                 {becomeVolunteerList.map((item, index) => (
