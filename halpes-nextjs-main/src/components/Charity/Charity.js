@@ -8,8 +8,9 @@ const Charity = () => {
     <section className="welcome-one">
       <Container>
         <Row>
-          <CharityImage />
           <CharityContent />
+          <CharityImage />
+
         </Row>
       </Container>
     </section>
