@@ -1162,6 +1162,11 @@
     text-align: center;
     margin: 0 0 20px;
   }
+
+  .become-volunteer-page__list li .text p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
