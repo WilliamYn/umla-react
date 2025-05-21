@@ -54,13 +54,13 @@ const footerData = {
     },
     {
       id: 4,
-      href: "/evenements",
-      title: "Événements"
+      href: "/projets",
+      title: "Projets"
     },
     {
       id: 5,
-      href: "/notre-equipe",
-      title: "Notre équipe"
+      href: "/dons",
+      title: "Faire un don"
     }
   ]
 };
