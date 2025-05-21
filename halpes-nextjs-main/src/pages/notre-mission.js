@@ -6,7 +6,7 @@ import React from "react";
 const CausesDetails = () => {
   return (
     <Layout pageTitle="Notre mission">
-      <PageHeader pageTitle="Notre mission" />
+      <PageHeader pageTitle="Notre mission" pageBackground={"/images/page-headers/mission.jpg"} />
       <CausesDetailsPage />
     </Layout>
   );
