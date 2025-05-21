@@ -673,10 +673,6 @@
     margin-top: 20px;
   }
 
-  .site-footer__bottom-social {
-    display: none;
-  }
-
   .introduction__right {
     margin-left: 0;
     margin-top: 50px;
@@ -1514,3 +1510,15 @@
   }
 }
 
+@media only screen and (max-width: 425px) {
+  .site-footer__bottom-logo-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .site-footer__bottom-social {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
