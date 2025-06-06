@@ -44,7 +44,7 @@ const MobileMenu = () => {
         <ul className="mobile-nav__contact list-unstyled" style={{ display: "none" }}>
           <li>
             <i className="fa fa-envelope"></i>
-            <a href="mailto:contact@umla.ca">contact@umla.ca</a>
+                      <a href="mailto:umla.mtl@gmail.com">umla.mtl@gmail.com</a>
           </li>
           <li>
             <i className="fa fa-phone-alt"></i>
