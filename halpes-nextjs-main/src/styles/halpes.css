@@ -7225,11 +7225,12 @@ h6 {
 }
 
 .buttons_don_section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 10px;
-  margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
 }
 
 .buttons_don_section .causes-details__share-btn {
