@@ -39,12 +39,9 @@ const CharityContent = () => {
         </p>
         <div className="welcome-one__our-mission-and-story">
           <div className="welcome-one__mission-and-story-single">
-                      <h3>
-                          <a href="/notre-mission">
-                              <i className="fas fa-arrow-circle-right"></i> Notre Mission
-                          </a>
-                      </h3>
-
+            <h3>
+              <i className="fas fa-arrow-circle-right"></i>Notre Mission
+            </h3>
             <p className="welcome-one__our-mission-and-story-text">
               Nourrir les corps et réchauffer les coeurs. Donner de l&apos;espoir aux personnes en difficulté. Vêtir les personnes en difficulté.
             </p>
