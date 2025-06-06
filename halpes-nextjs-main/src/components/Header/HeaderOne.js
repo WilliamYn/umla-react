@@ -32,7 +32,7 @@ const HeaderOne = () => {
                     <i className="fas fa-envelope"></i>
                   </div>
                   <div className="email">
-                    <a href="mailto:contact@umla.com">contact@umla.com</a>
+                                      <a href="mailto:umla.mtl@gmail.com">umla.mtl@gmail.com</a>
                   </div>
                 </div>
               </div>
