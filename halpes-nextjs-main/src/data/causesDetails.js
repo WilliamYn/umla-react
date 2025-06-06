@@ -1,52 +1,45 @@
-const text1 =
-  "Nous organisons des maraudes pour nourrir les personnes vulnérables. Nous nous engageons à offrir une nourriture de qualité et à améliorer leur qualité de vie. Les maraudes sont organisées dans les quartiers les plus défavorisés de la ville de Kigali. Nous nous engageons à offrir une nourriture de qualité et à améliorer leur qualité de vie. Les maraudes sont organisées dans les quartiers les plus défavorisés de la ville de Kigali.";
-const text2 =
-  "Chaque mois, UMLA organise une maraude, peu importe la saison. Été comme hiver, par beau temps ou sous la neige, les bénévoles sillonnent les rues de Montréal pour aller à la rencontre des personnes en situation d’itinérance ou de grande précarité. L’idée est simple mais puissante : créer du lien, apporter du réconfort, et répondre aux besoins immédiats.";
-const text3 =
-  "Lors de chaque maraude, ce sont en moyenne X personnes qui reçoivent un repas chaud, une collation, un café ou un thé réconfortant. Mais au-delà de la nourriture, UMLA distribue aussi des vêtements, des couvertures, et parfois des produits d’hygiène ou de premiers soins. Tout cela est rendu possible grâce à l’implication de Y volontaires, des gens de tous horizons qui donnent un peu de leur temps pour faire une vraie différence.";
-const text4 =
-  "Mais ce qui rend UMLA unique, c’est la philosophie humaine qui la guide. Chaque geste posé, chaque mot échangé repose sur l’idée que la solidarité ne devrait jamais être un luxe. Dans une société souvent marquée par l’individualisme, UMLA rappelle que chacun peut être un maillon de la chaîne de soutien. D’ailleurs, le nom de l’organisme dit tout : Une Main Lave L’Autre — parce qu’on avance mieux ensemble que seul, et que l’entraide commence par de petits gestes.";
+const texta1 =
+    "“L’exemple de deux frères est assimilable aux deux mains, l’une lave l’autre.” - Prophète Mohammed";
+const texta =
+    "Ce principe simple mais profond résume l’essence même de notre mission. À travers UMLA – Une Main Lave l’Autre, nous avons voulu incarner cette idée : que la solidarité humaine est la plus belle des forces, et que le soutien mutuel est une clé essentielle du vivre-ensemble.";
+const textb =
+  "Fondée à Montréal, UMLA est un organisme canadien à but non lucratif, indépendant et engagé. Nous existons pour tendre la main à celles et ceux qui en ont besoin. Nos actions, enracinées dans des valeurs islamiques de compassion, d’entraide et de dignité humaine, s’adressent à l’humanité toute entière, sans distinction de race, de culture ou de croyance.";
 
 
-
+const textc =
+  "Nous croyons que chaque être humain mérite d’être vu, entendu et soutenu. Offrir à ceux qui manquent, ce n’est pas seulement combler des besoins matériels – c’est aussi construire des ponts, redonner espoir, et raviver la flamme de la dignité. En aidant les autres, nous découvrons aussi notre propre humanité.";
+const textd =
+    "Chaque action portée par UMLA repose sur cette vision : Couvrir les gens d’humanité, et leur permettre de nous faire découvrir notre humilité.";
+const texte =
+    "Le Champ d’Action de l’organisme est notre feuille de route. Il oriente nos décisions, structure nos projets et garantit que toutes nos initiatives restent fidèles à notre vision. Il est aussi un gage de cohérence pour ceux qui nous rejoignent et de confiance pour ceux que nous servons.";
+const textf =
+    "Enregistrée comme Organisme de Bienfaisance, UMLA inscrit ses actions dans deux grandes catégories : Le soulagement de la pauvreté et Des actions reconnues comme étant au service du bien commun.";
+const textg =
+    "UMLA n’est pas seulement un organisme : c’est une vision, un engagement collectif, un mouvement de compassion active. Chaque main tendue en appelle une autre. Chaque geste, aussi petit soit-il, s’inscrit dans une chaîne de bienveillance.";
+const texth =
+    "Notre mission est simple mais puissante : ne jamais laisser une personne dans le besoin sans réponse, et toujours rappeler que l’humanité se construit à deux mains.";
 
 const summaryText =
-  "UMLA ne prétend pas tout changer, mais l’organisme change quelque chose de précieux : le quotidien de dizaines de personnes, le temps d’un sourire, d’un repas, d’un instant de dignité partagée.";
+  "Notre mission est simple mais puissante : ne jamais laisser une personne dans le besoin sans réponse, et toujours rappeler que l’humanité se construit à deux mains.";
 
 
 const causesDetails = {
   raised: "25,270",
   goal: "30,000",
   category: "Medical",
-  title: "Des maraudes pour nourrir les personnes vulnérables",
+    title: "Inspirés par un principe intemporel",
+    title2: "Nos fondations : entraide, dignité, humilité",
+    title3: "Une boussole pour nos engagements",
 
   images: ["/images/mission-page/mission-1.jpg", "/images/mission-page/mission-2.jpg"],
-  texts: [text1, text2, text3, text4],
+    texts: [texta1, texta, textb],
+    texts2: [textc, textd],
+    texts3: [texte, textf],
+    texts4: [textg, texth],
   summaryText,
   summaryList: [
-    "Repas, collations et boissons chaudes distribués chaque mois",
-    "Vêtements et couvertures offerts selon les saisons",
-    "Présence bienveillante et écoute des personnes dans le besoin",
-    "Des bénévoles mobilisés à chaque maraude, été comme hiver",
-    "Des actions concrètes au cœur des rues de Montréal",
   ],
   comments: [
-    {
-      id: 1,
-      image: "comment-1-1.jpg",
-      message:
-        "Sending love. My nephews Nick and Anthony Salaber are your teammates, so I know the caliber person you are. Our whole family is sending our best to you and your family.",
-      sender: "David Marks",
-      time: "3 hours ago",
-    },
-    {
-      id: 2,
-      image: "comment-1-2.jpg",
-      message:
-        "Sending love. My nephews Nick and Anthony Salaber are your teammates, so I know the caliber person you are. Our whole family is sending our best to you and your family.",
-      sender: "Christine Eve",
-      time: "3 hours ago",
-    },
   ],
 };
 

@@ -5658,10 +5658,12 @@ h6 {
   max-width: 406px;
 }
 
-.causes-details__summary-text p {
-  font-size: 16px;
-  margin: 0;
-}
+    .causes-details__summary-text p {
+        font-size: 16px;
+        margin: 0;
+        font-weight: 800;
+        color: var(--thm-black);
+    }
 
 .causes-details__summary-list {
   float: left;
@@ -7229,4 +7231,8 @@ h6 {
   padding: 18.5px 0px !important;
   font-size: 19px !important;
   border-radius: 10px;
+}
+
+.hide {
+    display: none;
 }

@@ -13,7 +13,12 @@ const {
   title,
   images,
   texts,
-  summaryText,
+    summaryText,
+    title2,
+    texts2,
+    title3,
+    texts3,
+    texts4
 } = causesDetails;
 
 const CausesDetailsLeft = () => {
@@ -58,23 +63,36 @@ const CausesDetailsLeft = () => {
             {text}
           </p>
         ))}
+        <h3>{title2}</h3>
+             {texts2.map((text, index) => (
+                  <p key={index} className={`causes-details__text-${index + 1}`}>
+                      {text}
+                  </p>
+              ))}
+              <h2>Un cadre d&apos;action clair et éthique</h2>
+              <h3>{title3}</h3>
+              {texts3.map((text, index) => (
+                  <p key={index} className={`causes-details__text-${index + 1}`}>
+                      {text}
+                  </p>
+              ))}
+              <h2>Nos trois grands piliers d’action</h2>
+              <h4>1. Assurer l&apos;accès aux besoins essentiels</h4>
+              <h4>2. Retisser des liens avec les communautés marginalisées</h4>
+              <h4>3. Initier la jeunesse au travail humanitaire</h4>
+              <h3>Pour un avenir solidaire</h3>
+              {texts4.map((text, index) => (
+                  <p key={index} className={`causes-details__text-${index + 1}`}>
+                      {text}
+                  </p>
+              ))}
       </div>
-      <div className="causes-details__images-box">
-        <Row>
-          {images.slice(0).map((image, index) => (
-            <Col xl={6} lg={6} key={index}>
-              <div className="causes-details__images-single">
-                <Image src={image} alt="" />
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </div>
+
       <div className="causes-details__summary">
-        <div className="causes-details__summary-text">
+        <div className="causes-details__summary-text hide">
           <p>{summaryText}</p>
         </div>
-        <div className="causes-details__summary-list">
+        <div className="causes-details__summary-list hide">
           <ul className="causes-details__summary-list-box list-unstyled">
             {summaryList.map((item, index) => (
               <li key={index}>
@@ -88,7 +106,18 @@ const CausesDetailsLeft = () => {
             ))}
           </ul>
         </div>
-      </div>
+          </div>
+          <div className="causes-details__images-box">
+              <Row>
+                  {images.slice(0).map((image, index) => (
+                      <Col xl={6} lg={6} key={index}>
+                          <div className="causes-details__images-single">
+                              <Image src={image} alt="" />
+                          </div>
+                      </Col>
+                  ))}
+              </Row>
+          </div>
       <div className="causes-details__share">
         <div className="causes-details__share-btn-box">
           <Link href="/dons">
