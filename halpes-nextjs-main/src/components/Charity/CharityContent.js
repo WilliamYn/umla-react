@@ -28,14 +28,14 @@ const CharityContent = () => {
     <Col xl={6} lg={6}>
       <div className="welcome-one__right">
         <div className="section-title text-left">
-          <span className="section-title__tagline">Bienvenue à notre charité</span>
+                  <span className="section-title__tagline">Une Main Lave l&apos;Autre</span>
           <h2 className="section-title__title">
-            Aider les autres peut rendre le monde meilleur
+                      Un geste à la fois, on restaure la dignité humaine.
           </h2>
         </div>
         <p className="welcome-one__right-text">
-        Apporter de l&apos;aide concrète, humaine et digne aux personnes en situation de vulnérabilité. Qu&apos;il s&apos;agisse de personnes sans-abris, de familles marginalisées ou d&apos;individus isolés, nous tendons la main, toujours avec <strong>respect, bienveillance et constance</strong>.<br/>
-        UMLA, c&apos;est une communauté vivante, unie par les valeurs <strong>d&apos;entraide, de justice sociale et de fraternité</strong>. Ensemble, on nourrit les corps et on réchauffe les coeurs.
+                  Depuis 2021, UMLA agit sur le terrain pour répondre aux besoins vitaux des personnes vulnérables à Montréal et ailleurs : repas, vêtements, hygiène, refuge. Mais au-delà de l’aide matérielle, nous recréons du lien humain, brisons l’isolement, et redonnons espoir.<br/>
+                    Nos actions sont portées par des valeurs de <strong>compassion</strong>, <strong>entraide</strong> et <strong>dignité</strong >, enracinées dans une vision universelle : chaque être humain mérite d’être vu, entendu et soutenu.
         </p>
         <div className="welcome-one__our-mission-and-story">
           <div className="welcome-one__mission-and-story-single">
