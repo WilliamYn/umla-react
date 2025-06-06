@@ -19,19 +19,20 @@ const BecomeVolunteerPage = () => {
               <div className="become-volunteer-page__img">
                 <Image src="/images/benevolat-page/benevolat-1.jpg" alt="" />
               </div>
-              <h3 className="become-volunteer-page__title">Pourquoi devenir bénévole?</h3>
+                          <h3 className="become-volunteer-page__title">Pourquoi devenir bénévole ?</h3>
               <p className="become-volunteer-page__text">
-                Nous sommes une association qui a pour but de venir en aide aux personnes les plus vulnérables de notre société.
-                Nous organisons des maraudes chaque mois, hiver comme été, pour distribuer des repas et des vêtements aux personnes les plus vulnérables.
-                Nous avons besoin de bénévoles pour venir en aide à nos maraudes.
-                Nous avons besoin d&apos;aide pour la préparation des repas, la distribution des vêtements et des chaussures.
+                              Chez Une Main Lave l’Autre (UMLA), chaque geste compte. Devenir bénévole, c’est bien plus que distribuer des repas : c’est tendre la main, créer du lien, et redonner de la dignité à celles et ceux qu’on oublie trop souvent.
+                              Nos actions sont multiples : soutien aux personnes en situation d’itinérance, aide aux familles réfugiées, accompagnement de communautés marginalisées, sensibilisation humanitaire auprès des jeunes, et plus encore.
+
               </p>
               <br />
               <p className="become-volunteer-page__text">
-                En tant que bénévole, vous participerez à la réalisation de nos maraudes, en distribuant des repas et des vêtements aux personnes les plus vulnérables.
-                Vous participerez également à des rencontres avec l&apos;équipe pour organiser des événements et des activités qui visent à venir en aide aux personnes. 
+                              Chaque mission repose sur des bénévoles engagés, prêts à offrir leur temps, leurs idées ou leur énergie.
+                              Rejoignez-nous, que ce soit pour cuisiner, distribuer, organiser, sensibiliser ou simplement écouter.
+                              Ensemble, faisons de la solidarité une force vivante.
+
               </p>
-              <ul className="become-volunteer-page__list list-unstyled">
+              <ul className="become-volunteer-page__list list-unstyled hide">
                 {becomeVolunteerList.map((item, index) => (
                   <li key={index}>
                     <div className="icon">
