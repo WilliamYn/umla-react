@@ -59,24 +59,6 @@ const galleryData = [
     title: "",
     subTitle: "",
   },
-  {
-    id: 11,
-    image: "/images/main-page/gallery/11.jpg",
-    title: "",
-    subTitle: "",
-  },
-  {
-    id: 12,
-    image: "/images/main-page/gallery/12.jpg",
-    title: "",
-    subTitle: "",
-  },
-  {
-    id: 13,
-    image: "/images/main-page/gallery/13.jpg",
-    title: "",
-    subTitle: "",
-  }
 ];
 
 export default galleryData;
