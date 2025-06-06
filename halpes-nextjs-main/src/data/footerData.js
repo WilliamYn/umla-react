@@ -3,7 +3,7 @@ import { contact } from "./contactData";
 const footerData = {
   ...contact,
   link: "UMLA",
-  email: "contact@umla.ca",
+    email: "umla.mtl@gmail.com",
   tel: "000-000-0000",
   copyrightYear: new Date().getFullYear(),
   about: "Nous sommes un organisme sans but lucratif qui a pour but de venir en aide aux personnes qui en ont besoin.",
