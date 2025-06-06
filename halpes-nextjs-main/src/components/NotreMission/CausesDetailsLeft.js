@@ -69,17 +69,20 @@ const CausesDetailsLeft = () => {
                       {text}
                   </p>
               ))}
-              <h2>Un cadre d&apos;action clair et éthique</h2>
-              <h3>{title3}</h3>
+              <h3>Un cadre d&apos;action clair et éthique</h3>
+              <p className="hide">{title3}</p>
               {texts3.map((text, index) => (
                   <p key={index} className={`causes-details__text-${index + 1}`}>
                       {text}
                   </p>
               ))}
-              <h2>Nos trois grands piliers d’action</h2>
+              <h3>Nos trois grands piliers d’action</h3>
               <h4>1. Assurer l&apos;accès aux besoins essentiels</h4>
+              <p>Lutter contre la vulnérabilité commence par répondre aux besoins vitaux.</p>
               <h4>2. Retisser des liens avec les communautés marginalisées</h4>
+              <p>L’aide matérielle est essentielle, mais insuffisante sans lien humain. Nous œuvrons à briser le mur de l’isolement et à restaurer un sentiment d’appartenance. Chaque interaction est une occasion de reconstruire la confiance et de réaffirmer que chacun mérite d’être entouré.</p>
               <h4>3. Initier la jeunesse au travail humanitaire</h4>
+              <p>Pour qu’un élan de solidarité perdure, il doit se transmettre. UMLA s’engage à éveiller les consciences et à former les cœurs. Par la sensibilisation (conférences, ateliers, contenu éducatif) et l’engagement actif (bénévolat, projets humanitaires), nous cultivons une génération de jeunes citoyens engagés.</p>
               <h3>Pour un avenir solidaire</h3>
               {texts4.map((text, index) => (
                   <p key={index} className={`causes-details__text-${index + 1}`}>
