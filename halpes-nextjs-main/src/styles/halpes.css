@@ -1611,7 +1611,7 @@ h6 {
   transform: translateY(120px);
   transition-delay: 1000ms;
   transition: transform 2000ms ease, opacity 2000ms ease;
-  font-size: 110px;
+  font-size: 92px;
   line-height: 120px;
 }
 
@@ -5607,6 +5607,13 @@ h6 {
   line-height: 44px;
   margin-bottom: 10px;
 }
+
+    .causes-details__text-box h4 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 44px;
+        margin-bottom: 0px;
+    }
 
 .causes-details__text-1 {
   font-size: 16px;

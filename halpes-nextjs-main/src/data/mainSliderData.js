@@ -4,7 +4,7 @@ const mainSliderData = [
     image: "/images/shapes/main-slider-1-shape-1.png",
     bg: "/images/backgrounds/umla-bg-2.jpg",
     subTitle: "UMLA",
-    title: "Aider",
+    title: "Pour l'humanité,",
     href: "/devenir-benevole",
   }
 ];

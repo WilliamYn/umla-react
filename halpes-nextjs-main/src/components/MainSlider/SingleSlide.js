@@ -19,7 +19,7 @@ const SingleSlide = ({ slide = {} }) => {
               <p>{subTitle}</p>
               <h2>
                 {title} <br />
-                les autres
+                avec humilité
               </h2>
               <a href={href} className="thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Devenir bénévole
