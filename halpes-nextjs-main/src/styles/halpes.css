@@ -2382,6 +2382,9 @@ h6 {
 
 .three-boxes .row {
   --bs-gutter-x: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .three-boxes .container-box {
@@ -2390,12 +2393,19 @@ h6 {
   width: 100%;
 }
 
+.three-boxes .col-xl-4 {
+  display: flex;
+  flex-direction: column;
+}
+
 .three-boxes__single {
   position: relative;
   display: block;
   overflow: hidden;
   z-index: 1;
   padding: 60px 60px 60px;
+  flex: 1;
+  height: 100%;
 }
 
 .three-boxes__single:before {
