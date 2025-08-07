@@ -21,7 +21,7 @@ const {
     texts4
 } = causesDetails;
 
-const CausesDetailsLeft = () => {
+const MissionContent = () => {
   const raisedNumber = +raised.split(",").join("");
   const goalNumber = +goal.split(",").join("");
   const percent = Math.round((raisedNumber / goalNumber) * 100) + "%";
@@ -162,4 +162,4 @@ const CausesDetailsLeft = () => {
   );
 };
 
-export default CausesDetailsLeft;
+export default MissionContent; 

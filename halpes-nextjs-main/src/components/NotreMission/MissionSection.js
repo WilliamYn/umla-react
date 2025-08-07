@@ -1,14 +1,14 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import CausesDetailsLeft from "./CausesDetailsLeft";
+import MissionContent from "./MissionContent";
 
-const CausesDetailsPage = () => {
+const MissionComponent = () => {
   return (
     <section className="causes-details">
       <Container>
         <Row>
           <Col xl={12} lg={12}>
-            <CausesDetailsLeft />
+            <MissionContent />
           </Col>
         </Row>
       </Container>
@@ -16,4 +16,4 @@ const CausesDetailsPage = () => {
   );
 };
 
-export default CausesDetailsPage;
+export default MissionComponent; 
