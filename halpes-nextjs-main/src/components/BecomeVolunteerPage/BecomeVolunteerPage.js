@@ -1,7 +1,6 @@
 import becomeVolunteerList from "@/data/becomeVolunteerList";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import VolunteerForm from "./VolunteerForm";
 
 const BecomeVolunteerPage = () => {
   return (
@@ -47,11 +46,6 @@ const BecomeVolunteerPage = () => {
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSegLGAZV4gBZ0O0ehf9K8cFANkGiZQ_NmmjmE7jl0PIWlwJCg/viewform" className="thm-btn" rel="noreferrer" target="_blank">
                 <i className="fas fa-arrow-circle-right"></i>Devenir bénévole
               </a>
-            </div>
-          </Col>
-          <Col xl={6} lg={6} style={{ display: "none" }}>
-            <div className="become-volunteer-page__right">
-              <VolunteerForm />
             </div>
           </Col>
         </Row>
