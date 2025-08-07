@@ -6,7 +6,6 @@ import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import MobileMenu from "../MobileMenu/MobileMenu";
-import Search from "../Search/Search";
 import SiteFooter from "../SiteFooter/SiteFooter";
 
 const Layout = ({ children, pageTitle }) => {
@@ -39,7 +38,6 @@ const Layout = ({ children, pageTitle }) => {
         <SiteFooter />
       </main>
       {menuStatus && <MobileMenu />}
-      <Search />
       {scrollTop && (
         <ScrollLink
           to="wrapper"
