@@ -1,4 +1,4 @@
-const contact = {
+export const contact = {
   tel: "92 666 888 0000",
   email: "needhelp@company.com",
   officeAddress: "80 broklyn golden street",
