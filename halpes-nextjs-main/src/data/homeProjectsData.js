@@ -1,4 +1,4 @@
-const causesData = [
+const homeProjectsData = [
   {
     id: 1,
     image: "palestine.png",
@@ -82,4 +82,4 @@ const causesData = [
   }
 ];
 
-export default causesData;
+export default homeProjectsData; 

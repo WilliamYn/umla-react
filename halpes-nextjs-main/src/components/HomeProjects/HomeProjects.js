@@ -1,8 +1,8 @@
-import causesData from "@/data/causesData";
+import homeProjectsData from "@/data/homeProjectsData";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import CausesSingle from "./CausesSingle";
+import HomeProjectsItem from "./HomeProjectsItem";
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
@@ -28,7 +28,7 @@ const settings = {
   },
 };
 
-const CausesOne = () => {
+const HomeProjects = () => {
   return (
     <section className="causes-one">
       <Container>
@@ -42,8 +42,8 @@ const CausesOne = () => {
           <Col xl={12}>
             <div className="causes-one__carousel">
               <TinySlider settings={settings}>
-                {causesData.map((cause) => (
-                  <CausesSingle cause={cause} key={cause.id} />
+                {homeProjectsData.map((project) => (
+                  <HomeProjectsItem project={project} key={project.id} />
                 ))}
               </TinySlider>
             </div>
@@ -54,4 +54,4 @@ const CausesOne = () => {
   );
 };
 
-export default CausesOne;
+export default HomeProjects; 

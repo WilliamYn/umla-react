@@ -1,4 +1,4 @@
-import CausesOne from "@/components/CausesOne/CausesOne";
+import HomeProjects from "@/components/HomeProjects/HomeProjects";
 import Charity from "@/components/Charity/Charity";
 import DonationBanner from "@/components/DonationBanner/DonationBanner";
 import GalleryOne from "@/components/GalleryOne/GalleryOne";
@@ -16,7 +16,7 @@ const Home = () => {
       
       
       <Charity />
-      <CausesOne />
+      <HomeProjects />
       <ThreeBoxes />
 
       <HelpThem />
