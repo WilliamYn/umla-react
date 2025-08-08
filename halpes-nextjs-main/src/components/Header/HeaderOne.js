@@ -1,14 +1,17 @@
 import { useRootContext } from "@/context/context";
-import navItems, { social } from "@/data/NavItems";
+import navItemsJson from "@/data/navItems.json";
 import useScroll from "@/hooks/useScroll";
 import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
+import { social as headerSocial } from "@/data/NavItems";
 
 const HeaderOne = () => {
   const { scrollTop } = useScroll(130);
   const { toggleMenu, toggleSearch } = useRootContext();
+  const navItems = navItemsJson.items || [];
+  const social = navItemsJson.social || [];
 
   return (
     <header className="main-header clearfix">
@@ -25,14 +28,14 @@ const HeaderOne = () => {
             <div className="main-menu-wrapper__left">
               <div className="main-menu-wrapper__left-content">
                 <div className="main-menu-wrapper__left-text">
-                  <p>Bienvenue chez UMLA</p>
+                  <p>{navItemsJson.welcomeText}</p>
                 </div>
                 <div className="main-menu-wrapper__left-email-box">
                   <div className="icon">
                     <i className="fas fa-envelope"></i>
                   </div>
                   <div className="email">
-                                      <a href="mailto:umla.mtl@gmail.com">umla.mtl@gmail.com</a>
+                    <a href="mailto:umla.mtl@gmail.com">umla.mtl@gmail.com</a>
                   </div>
                 </div>
               </div>
@@ -77,7 +80,7 @@ const HeaderOne = () => {
               <div className="main-menu__right">
                 <Link href="/dons">
                   <a className="main-menu__donate-btn">
-                    <i className="fa fa-heart"></i>Faire un don
+                    <i className="fa fa-heart"></i>{navItemsJson.donateButtonLabel}
                   </a>
                 </Link>
               </div>

@@ -1,0 +1,20 @@
+{
+  "cta": {
+    "headline": "Rejoignez votre main avec nous pour une meilleure vie et un avenir meilleur",
+    "bigText": "Aidez-nous",
+    "buttonLabel": "Devenir bénévole",
+    "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSegLGAZV4gBZ0O0ehf9K8cFANkGiZQ_NmmjmE7jl0PIWlwJCg/viewform"
+  },
+  "page": {
+    "tagline": "Agissez aujourd'hui",
+    "title": "Devenez bénévole, changez des vies",
+    "image": "/images/benevolat-page/benevolat-1.jpg",
+    "whyTitle": "Pourquoi devenir bénévole ?",
+    "paragraphs": [
+      "Chez Une Main Lave l’Autre (UMLA), chaque geste compte. Devenir bénévole, c’est bien plus que distribuer des repas : c’est tendre la main, créer du lien, et redonner de la dignité à celles et ceux qu’on oublie trop souvent.",
+      "Chaque mission repose sur des bénévoles engagés, prêts à offrir leur temps, leurs idées ou leur énergie. Rejoignez-nous, que ce soit pour cuisiner, distribuer, organiser, sensibiliser ou simplement écouter. Ensemble, faisons de la solidarité une force vivante."
+    ],
+    "buttonLabel": "Devenir bénévole",
+    "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSegLGAZV4gBZ0O0ehf9K8cFANkGiZQ_NmmjmE7jl0PIWlwJCg/viewform"
+  }
+} 

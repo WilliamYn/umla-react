@@ -1,0 +1,17 @@
+{
+  "tagline": "Une Main Lave l'Autre",
+  "title": "Un geste à la fois, on restaure la dignité humaine.",
+  "paragraphs": [
+    "Depuis 2021, UMLA agit sur le terrain pour répondre aux besoins vitaux des personnes vulnérables à Montréal et ailleurs : repas, vêtements, hygiène, refuge. Mais au-delà de l’aide matérielle, nous recréons du lien humain, brisons l’isolement, et redonnons espoir.",
+    "Nos actions sont portées par des valeurs de compassion, entraide et dignité, enracinées dans une vision universelle : chaque être humain mérite d’être vu, entendu et soutenu."
+  ],
+  "missionTitle": "Notre Mission",
+  "missionText": "Nourrir les corps et réchauffer les coeurs. Donner de l'espoir aux personnes en difficulté. Vêtir les personnes en difficulté.",
+  "historyTitle": "Notre Histoire",
+  "historyText": "Fournir de l'aide depuis 2021. Nous sommes une équipe de bénévoles qui travaille ensemble pour aider les personnes en difficulté.",
+  "ctaLabel": "En savoir plus",
+  "countBar": [
+    { "id": 1, "title": "Charité", "percent": 83 },
+    { "id": 2, "title": "Donations", "percent": 38 }
+  ]
+} 

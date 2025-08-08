@@ -1,8 +1,9 @@
-import homeProjectsData from "@/data/homeProjectsData";
+import homeProjectsData from "@/data/homeProjectsData.json";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import HomeProjectsItem from "./HomeProjectsItem";
+import homeLabels from "@/data/home.json";
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
@@ -35,7 +36,7 @@ const HomeProjects = () => {
         <div className="section-title text-center">
           <span className="section-title__tagline" style={{ display: "none" }}>Projets</span>
           <h2 className="section-title__title">
-            Nos Projets
+            {homeLabels.projectsSectionTitle}
           </h2>
         </div>
         <Row>

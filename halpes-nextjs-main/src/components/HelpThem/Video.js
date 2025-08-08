@@ -1,4 +1,4 @@
-import VideoData from "@/data/videoData";
+import VideoData from "@/data/videoData.json";
 import React from "react";
 
 const Video = () => {

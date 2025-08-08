@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import donationBanner from "@/data/donationBanner.json";
 
 const DonationBanner = () => {
   return (
@@ -10,21 +11,21 @@ const DonationBanner = () => {
             <div className="donation-banner__content">
               <div className="donation-banner__text">
                 <h2 className="donation-banner__title">
-                  Aidez-nous à financer la construction d&apos;un forage à Karang au Sénégal!
+                  {donationBanner.title}
                 </h2>
                 <p className="donation-banner__subtitle">
-                  Un forage = Une communauté sauvée. Offrez de l&apos;eau potable! Contribuez dès maintenant.
+                  {donationBanner.subtitle}
                 </p>
               </div>
               <div className="donation-banner__action">
                 <a 
-                  href="https://www.zeffy.com/fr-CA/donation-form/projet-al-muslihoun-reformer-les-coeurs-changer-des-vies"
+                  href={donationBanner.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="donation-banner__btn thm-btn"
                 >
                   <i className="fas fa-tint"></i>
-                  Faire un don
+                  {donationBanner.buttonLabel}
                 </a>
               </div>
             </div>

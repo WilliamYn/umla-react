@@ -2,11 +2,12 @@ import DonsPage from "@/components/DonsPage/DonsPage";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import React from "react";
+import pages from "@/data/pages.json";
 
 const Dons = () => {
   return (
-    <Layout pageTitle="Dons">
-      <PageHeader pageTitle="Faire un don" pageBackground={"/images/page-headers/dons.jpg"} />
+    <Layout pageTitle={pages.dons.pageTitle}>
+      <PageHeader pageTitle={pages.dons.headerTitle} pageBackground={"/images/page-headers/dons.jpg"} />
       <DonsPage />
     </Layout>
   );

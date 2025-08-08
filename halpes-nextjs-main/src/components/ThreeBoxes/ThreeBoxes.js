@@ -1,4 +1,4 @@
-import threeBoxes from "@/data/threeBoxes";
+import threeBoxes from "@/data/threeBoxes.json";
 import React from "react";
 import { Row } from "react-bootstrap";
 import SingleBox from "./SingleBox";

@@ -7,10 +7,11 @@ import HelpThem from "@/components/HelpThem/HelpThem";
 import Layout from "@/components/Layout/Layout";
 import MainSlider from "@/components/MainSlider/MainSlider";
 import ThreeBoxes from "@/components/ThreeBoxes/ThreeBoxes";
+import pages from "@/data/pages.json";
 
 const Home = () => {
   return (
-    <Layout pageTitle="UMLA">
+    <Layout pageTitle={pages.home.pageTitle}>
       <DonationBanner />
       <MainSlider />
       

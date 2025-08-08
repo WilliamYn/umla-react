@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import pageHeader from "@/data/pageHeader.json";
 
 const PageHeader = ({ pageTitle = "", pageBackground = "/images/backgrounds/umla-bg-2.jpg" }) => {
   return (
@@ -12,7 +13,7 @@ const PageHeader = ({ pageTitle = "", pageBackground = "/images/backgrounds/umla
         <h2>{pageTitle}</h2>
         <ul className="thm-breadcrumb list-unstyled">
           <li>
-            <Link href="/">Accueil</Link>
+            <Link href="/">{pageHeader.homeLabel}</Link>
           </li>
           <li className="color-thm-gray">/</li>
           <li>

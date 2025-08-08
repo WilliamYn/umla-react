@@ -1,10 +1,11 @@
-import { mainSliderCounter } from "@/data/mainSliderData";
+import mainSliderJson from "@/data/mainSliderData.json";
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import ReactVisibilitySensor from "react-visibility-sensor";
 
 const SliderCounter = () => {
   const [countStart, setCountStart] = useState(false);
+  const counter = mainSliderJson.counter || [];
 
   const onVisibilityChange = (isVisible) => {
     if (isVisible) {
@@ -15,7 +16,7 @@ const SliderCounter = () => {
   return (
     <div className="main-slider__counter">
       <ul className="main-slider__counter-box list-unstyled">
-        {mainSliderCounter.map(({ id, title, count }) => (
+        {counter.map(({ id, title, count }) => (
           <li key={id}>
             <h3 className="main-sldier__counter-digit">
               <ReactVisibilitySensor
