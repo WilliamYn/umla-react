@@ -1,4 +1,4 @@
-import footerData from "@/data/footerData.json";
+import footerData from "@/data/footerData";
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
@@ -14,8 +14,7 @@ const {
   copyrightYear,
   bottomLogo,
   footerBg,
-  labels,
-} = { ...footerData, copyrightYear: new Date().getFullYear() };
+} = footerData;
 
 const SiteFooter = () => {
   return (
@@ -29,11 +28,11 @@ const SiteFooter = () => {
           <Row>
             <Col xl={3} lg={6} md={6} className="fadeInUp">
               <div className="footer-widget__column footer-widget__about">
-                <h3 className="footer-widget__title">{labels.aboutTitle}</h3>
+                <h3 className="footer-widget__title">À propos</h3>
                 <p className="footer-widget__text">{about}</p>
                 <Link href="/dons">
                   <a className="footer-widget__about-btn">
-                    <i className="fa fa-heart"></i>{labels.donateCta}
+                    <i className="fa fa-heart"></i>Faire un don
                   </a>
                 </Link>
               </div>
@@ -46,7 +45,7 @@ const SiteFooter = () => {
               data-wow-delay="200ms"
             >
               <div className="footer-widget__column footer-widget__explore clearfix">
-                <h3 className="footer-widget__title">{labels.exploreTitle}</h3>
+                <h3 className="footer-widget__title">Explorer</h3>
                 <ul className="footer-widget__explore-list list-unstyled">
                   {exploreList.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>
@@ -65,7 +64,7 @@ const SiteFooter = () => {
             </Col>
             <Col xl={3} lg={6} md={6} className="fadeInUp">
               <div className="footer-widget__column footer-widget__contact">
-                <h3 className="footer-widget__title">{labels.contactTitle}</h3>
+                <h3 className="footer-widget__title">Contact</h3>
                 <ul className="list-unstyled footer-widget__contact-list">
                   <li style={{ display: "none" }}>
                     <div className="icon">
@@ -84,7 +83,7 @@ const SiteFooter = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>{labels.contactEmailLabel}</span>
+                        <span>Envoyer un courriel</span>
                         <a href={`mailto:${email}`}>{email}</a>
                       </p>
                     </div>
@@ -111,7 +110,7 @@ const SiteFooter = () => {
               data-wow-delay="400ms"
             >
               <div className="footer-widget__column footer-widget__newsletter" style={{ display: "none" }}>
-                <h3 className="footer-widget__title">{labels.newsletterTitle}</h3>
+                <h3 className="footer-widget__title">Newsletter</h3>
                 <p className="footer-widget__newsletter-text">
                   Lorem ipsum dolor sit ame consect etur pisicing elit sed do.
                 </p>
@@ -154,7 +153,7 @@ const SiteFooter = () => {
                 </div>
                 <div className="site-footer__bottom-copy-right">
                   <p>
-                    {labels.copyrightPrefix} {copyrightYear} {labels.byLabel}{" "}
+                    © Copyright {copyrightYear} par{" "}
                     <a
                       target="_blank"
                       rel="noreferrer"

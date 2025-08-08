@@ -1,4 +1,4 @@
-import causesDetails from "@/data/causesDetails.json";
+import causesDetails from "@/data/causesDetails";
 import { social } from "@/data/NavItems";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
@@ -13,16 +13,12 @@ const {
   title,
   images,
   texts,
-  summaryText,
-  title2,
-  texts2,
-  title3,
-  texts3,
-  texts4,
-  sectionTitleA,
-  pillarsTitle,
-  pillars,
-  closingTitle,
+    summaryText,
+    title2,
+    texts2,
+    title3,
+    texts3,
+    texts4
 } = causesDetails;
 
 const MissionContent = () => {
@@ -50,7 +46,7 @@ const MissionContent = () => {
               </div>
             </div>
           </div>
-          <div className="causes-details__goals" style={{ display: "none" }}>
+          <div className="causes-details__goals">
             <p>
               <span>${raised}</span> Raised
             </p>
@@ -68,31 +64,31 @@ const MissionContent = () => {
           </p>
         ))}
         <h3>{title2}</h3>
-        {texts2.map((text, index) => (
-          <p key={index} className={`causes-details__text-${index + 1}`}>
-            {text}
-          </p>
-        ))}
-        <h3>{sectionTitleA}</h3>
-        <p className="hide">{title3}</p>
-        {texts3.map((text, index) => (
-          <p key={index} className={`causes-details__text-${index + 1}`}>
-            {text}
-          </p>
-        ))}
-        <h3>{pillarsTitle}</h3>
-        {pillars.map((pillar, i) => (
-          <div key={i}>
-            <h4>{pillar.title}</h4>
-            <p>{pillar.text}</p>
-          </div>
-        ))}
-        <h3>{closingTitle}</h3>
-        {texts4.map((text, index) => (
-          <p key={index} className={`causes-details__text-${index + 1}`}>
-            {text}
-          </p>
-        ))}
+             {texts2.map((text, index) => (
+                  <p key={index} className={`causes-details__text-${index + 1}`}>
+                      {text}
+                  </p>
+              ))}
+              <h3>Un cadre d&apos;action clair et éthique</h3>
+              <p className="hide">{title3}</p>
+              {texts3.map((text, index) => (
+                  <p key={index} className={`causes-details__text-${index + 1}`}>
+                      {text}
+                  </p>
+              ))}
+              <h3>Nos trois grands piliers d’action</h3>
+              <h4>1. Assurer l&apos;accès aux besoins essentiels</h4>
+              <p>Lutter contre la vulnérabilité commence par répondre aux besoins vitaux.</p>
+              <h4>2. Retisser des liens avec les communautés marginalisées</h4>
+              <p>L’aide matérielle est essentielle, mais insuffisante sans lien humain. Nous œuvrons à briser le mur de l’isolement et à restaurer un sentiment d’appartenance. Chaque interaction est une occasion de reconstruire la confiance et de réaffirmer que chacun mérite d’être entouré.</p>
+              <h4>3. Initier la jeunesse au travail humanitaire</h4>
+              <p>Pour qu’un élan de solidarité perdure, il doit se transmettre. UMLA s’engage à éveiller les consciences et à former les cœurs. Par la sensibilisation (conférences, ateliers, contenu éducatif) et l’engagement actif (bénévolat, projets humanitaires), nous cultivons une génération de jeunes citoyens engagés.</p>
+              <h3>Pour un avenir solidaire</h3>
+              {texts4.map((text, index) => (
+                  <p key={index} className={`causes-details__text-${index + 1}`}>
+                      {text}
+                  </p>
+              ))}
       </div>
 
       <div className="causes-details__summary">
@@ -113,18 +109,18 @@ const MissionContent = () => {
             ))}
           </ul>
         </div>
-      </div>
-      <div className="causes-details__images-box">
-        <Row>
-          {images.slice(0).map((image, index) => (
-            <Col xl={6} lg={6} key={index}>
-              <div className="causes-details__images-single">
-                <Image src={image} alt="" />
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </div>
+          </div>
+          <div className="causes-details__images-box">
+              <Row>
+                  {images.slice(0).map((image, index) => (
+                      <Col xl={6} lg={6} key={index}>
+                          <div className="causes-details__images-single">
+                              <Image src={image} alt="" />
+                          </div>
+                      </Col>
+                  ))}
+              </Row>
+          </div>
       <div className="causes-details__share">
         <div className="causes-details__share-btn-box">
           <Link href="/dons">

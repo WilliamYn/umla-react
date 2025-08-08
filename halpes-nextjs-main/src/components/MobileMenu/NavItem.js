@@ -1,35 +1,45 @@
+import { useRootContext } from "@/context/context";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useState } from "react";
+import SubNavItem from "./SubNavItem";
 
 const NavItem = ({ item = {} }) => {
   const { pathname } = useRouter();
 
-  const { name, href, subNavItems = [] } = item;
-  const subHref = subNavItems.map((sub) => sub.href);
-  const current = pathname === href || subHref.includes(pathname);
+  const [expand, setExpand] = useState(false);
+
+  const handleExpand = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setExpand((preExpand) => !preExpand);
+  };
+
+  const { name, href, subNavItems } = item;
 
   return (
-    <li className={`dropdown${current ? " current" : ""}`}>
+    <li className={`dropdown${pathname === href ? " current" : ""}`}>
       <Link href={href}>
-        <a href={href}>{name}</a>
+        <a className={expand ? " expanded" : ""}>
+          {name}
+          {subNavItems && subNavItems.length > 0 && (
+            <button
+              onClick={handleExpand}
+              aria-label="dropdown toggler"
+              className={expand ? "expanded" : ""}
+            >
+              <i className="fa fa-angle-down"></i>
+            </button>
+          )}
+        </a>
       </Link>
-      <ul>
+      <ul
+        style={{
+          display: expand ? "block" : "none",
+        }}
+      >
         {subNavItems.map((subItem) => (
-          <li key={subItem.id}>
-            <Link href={subItem.href}>
-              <a href={href}>{subItem.name}</a>
-            </Link>
-            <ul>
-              {subItem.subItems?.map((item) => (
-                <li key={item.id}>
-                  <Link href={item.href}>
-                    <a href={href}>{item.name}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
+          <SubNavItem subItem={subItem} key={subItem.id} />
         ))}
       </ul>
     </li>

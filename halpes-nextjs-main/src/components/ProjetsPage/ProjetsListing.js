@@ -1,4 +1,4 @@
-import projetsPageData from "@/data/projetsPageData.json";
+import projetsPageData from "@/data/projetsPageData";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import HomeProjectsItem from "../HomeProjects/HomeProjectsItem";

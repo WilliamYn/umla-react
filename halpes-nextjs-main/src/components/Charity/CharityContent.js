@@ -1,9 +1,19 @@
 import React, { useState } from "react";
 import { Col } from "react-bootstrap";
 import ReactVisibilitySensor from "react-visibility-sensor";
-import charity from "@/data/charity.json";
 
-const countBar = charity.countBar;
+const countBar = [
+  {
+    id: 1,
+    title: "Charité",
+    percent: 83,
+  },
+  {
+    id: 2,
+    title: "Donations",
+    percent: 38,
+  },
+];
 
 const CharityContent = () => {
   const [countStart, setCountStart] = useState(false);
@@ -18,30 +28,30 @@ const CharityContent = () => {
     <Col xl={6} lg={6}>
       <div className="welcome-one__right">
         <div className="section-title text-left">
-          <span className="section-title__tagline">{charity.tagline}</span>
+                  <span className="section-title__tagline">Une Main Lave l&apos;Autre</span>
           <h2 className="section-title__title">
-            {charity.title}
+                      Un geste à la fois, on restaure la dignité humaine.
           </h2>
         </div>
         <p className="welcome-one__right-text">
-          {charity.paragraphs[0]}<br/>
-          {charity.paragraphs[1]}
+                  Depuis 2021, UMLA agit sur le terrain pour répondre aux besoins vitaux des personnes vulnérables à Montréal et ailleurs : repas, vêtements, hygiène, refuge. Mais au-delà de l’aide matérielle, nous recréons du lien humain, brisons l’isolement, et redonnons espoir.<br/>
+                    Nos actions sont portées par des valeurs de <strong>compassion</strong>, <strong>entraide</strong> et <strong>dignité</strong >, enracinées dans une vision universelle : chaque être humain mérite d’être vu, entendu et soutenu.
         </p>
         <div className="welcome-one__our-mission-and-story">
           <div className="welcome-one__mission-and-story-single">
             <h3>
-              <i className="fas fa-arrow-circle-right"></i>{charity.missionTitle}
+              <i className="fas fa-arrow-circle-right"></i>Notre Mission
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-              {charity.missionText}
+              Nourrir les corps et réchauffer les coeurs. Donner de l&apos;espoir aux personnes en difficulté. Vêtir les personnes en difficulté.
             </p>
           </div>
           <div className="welcome-one__mission-and-story-single">
             <h3>
-              <i className="fas fa-arrow-circle-right"></i>{charity.historyTitle}
+              <i className="fas fa-arrow-circle-right"></i>Notre Histoire
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-              {charity.historyText}
+              Fournir de l&apos;aide depuis 2021. Nous sommes une équipe de bénévoles qui travaille ensemble pour aider les personnes en difficulté.
             </p>
           </div>
         </div>
@@ -76,7 +86,7 @@ const CharityContent = () => {
           ))}
         </div>
         <a href="#" className="welcome-one__btn thm-btn" style={{ display: "none" }}>
-          <i className="fas fa-arrow-circle-right"></i>{charity.ctaLabel}
+          <i className="fas fa-arrow-circle-right"></i>En savoir plus
         </a>
       </div>
     </Col>

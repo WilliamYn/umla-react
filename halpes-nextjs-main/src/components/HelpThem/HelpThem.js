@@ -1,5 +1,5 @@
-import helpThemJson from "@/data/helpThem.json";
-import VideoData from "@/data/videoData.json";
+import helpThem from "@/data/helpThem";
+import VideoData from "@/data/videoData";
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
@@ -11,7 +11,6 @@ const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
 const HelpThem = () => {
   const [isOpen, setOpen] = useState(false);
   const { id } = VideoData;
-  const items = helpThemJson.items || [];
 
   return (
     <>
@@ -24,7 +23,7 @@ const HelpThem = () => {
                 <Col xl={6} lg={6}>
                   <div className="help-them__top-content">
                     <h2 className="help-them__top-content-title">
-                      {helpThemJson.topTitle}
+                      Aidez les plus vulnérables
                     </h2>
                   </div>
                 </Col>
@@ -35,7 +34,7 @@ const HelpThem = () => {
             </div>
             <div className="help-them__bottom" style={{ display: "none" }}>
               <Row>
-                {items.map(({ id, title, subTitle, icon }) => (
+                {helpThem.map(({ id, title, subTitle, icon }) => (
                   <Col xl={6} lg={6} key={id}>
                     <div className="help-them__single">
                       <div className="help-them__icon">

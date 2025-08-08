@@ -1,4 +1,4 @@
-import mainSliderJson from "@/data/mainSliderData.json";
+import mainSliderData from "@/data/mainSliderData";
 import React from "react";
 import SwiperCore, {
   Autoplay,
@@ -31,12 +31,11 @@ const mainSlideOptions = {
 };
 
 const MainSlider = () => {
-  const slides = mainSliderJson.slides || [];
   return (
     <section className="main-slider">
       <Swiper className="thm-swiper__slider" {...mainSlideOptions}>
         <div className="swiper-wrapper">
-          {slides.map((slide) => (
+          {mainSliderData.map((slide) => (
             <SingleSlide key={slide.id} slide={slide} />
           ))}
         </div>

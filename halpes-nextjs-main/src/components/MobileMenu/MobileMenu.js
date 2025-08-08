@@ -1,5 +1,5 @@
 import { useRootContext } from "@/context/context";
-import navItemsJson from "@/data/navItems.json";
+import navItems, { social } from "@/data/NavItems";
 import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
@@ -7,8 +7,6 @@ import NavItem from "./NavItem";
 
 const MobileMenu = () => {
   const { toggleMenu, menuStatus } = useRootContext();
-  const navItems = navItemsJson.items || [];
-  const social = navItemsJson.social || [];
 
   return (
     <div
@@ -46,7 +44,7 @@ const MobileMenu = () => {
         <ul className="mobile-nav__contact list-unstyled" style={{ display: "none" }}>
           <li>
             <i className="fa fa-envelope"></i>
-            <a href="mailto:umla.mtl@gmail.com">umla.mtl@gmail.com</a>
+                      <a href="mailto:umla.mtl@gmail.com">umla.mtl@gmail.com</a>
           </li>
           <li>
             <i className="fa fa-phone-alt"></i>
