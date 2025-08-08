@@ -1,4 +1,4 @@
-import missionTexte from "@/data/missionTexte.json";
+import causesDetails from "@/data/causesDetails.json";
 import { social } from "@/data/NavItems";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
@@ -23,7 +23,7 @@ const {
   pillarsTitle,
   pillars,
   closingTitle,
-} = missionTexte;
+} = causesDetails;
 
 const MissionContent = () => {
   const raisedNumber = +raised.split(",").join("");
